@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c65f1ee-0a93-46d3-a025-8664630892b7">
+  <producedTypes>
+    <refType typeId="7110b659-d978-415d-be63-88a13308f4bb" valueTypeId="e179e82e-291f-43c4-9f3a-adcb3004d490"/>
+    <listType typeId="c3db44ee-186c-4f87-9bb8-04fb70b2881e" valueTypeId="01fcdbad-7a32-4ebc-83ce-e67431530c1f"/>
+    <managerType typeId="07adb1fc-8ab5-4ffc-a3c7-d657eccf5645" valueTypeId="91b42a09-9428-459d-8a2c-9599e3ba94d0"/>
+  </producedTypes>
+  <name>ВидыКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ВидыКонтактныхЛиц.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="31851afc-99b9-4a04-91a8-feb7f7a22983">
+    <name>КонтактноеЛицоКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="689db9d2-c826-4b3b-8705-46365cc88200">
+    <name>ПрочееКонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее контактное лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ceeb3ea-063b-4a07-a3b9-d9d98f164928">
+    <name>ЛичныйКонтакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный контакт</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="f5469e38-d26b-4930-a3e4-9d20efee6193">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

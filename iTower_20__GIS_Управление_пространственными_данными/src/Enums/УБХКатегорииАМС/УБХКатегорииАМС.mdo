@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7102863f-f9f2-4662-8be1-888ccc014383">
+  <producedTypes>
+    <refType typeId="ef4685b4-8ad7-409b-b338-91649bc9f2e8" valueTypeId="549ed4e8-2fe8-4154-a33b-3184eca1e3d1"/>
+    <listType typeId="55fe994c-e9dd-41c8-b836-0280572a14eb" valueTypeId="a53f6a71-0cbd-43d7-bda9-07d55498202c"/>
+    <managerType typeId="94a6e95a-e650-4499-bbbf-7c5e81d3aca3" valueTypeId="2fea9dfd-1031-4d1a-86bb-10cdb0e277f1"/>
+  </producedTypes>
+  <name>УБХКатегорииАМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории АМС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХКатегорииАМС.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="e3fb356e-b8a4-4550-b650-ab96ac08d764">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="118ffc8c-bccf-47b5-b4bf-fd78bac98816">
+    <name>Стандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная</value>
+    </synonym>
+    <comment>Standard</comment>
+  </enumValues>
+  <enumValues uuid="16eefa48-5a8b-43fc-a192-27c93ee77ea9">
+    <name>Стратегическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стратегическая</value>
+    </synonym>
+    <comment>Strategic</comment>
+  </enumValues>
+  <enumValues uuid="d3051d5c-61ad-49a1-980d-9a6d4ff49a5a">
+    <name>Золотая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Золотая</value>
+    </synonym>
+    <comment>Gold</comment>
+  </enumValues>
+  <forms uuid="3cd5b73d-b964-4ad4-9221-28865a01dcd7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

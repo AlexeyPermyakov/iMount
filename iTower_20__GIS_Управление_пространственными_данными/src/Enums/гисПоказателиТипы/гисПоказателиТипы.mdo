@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4863b6ef-0e8e-4e2b-8736-bd2d18bfc08f">
+  <producedTypes>
+    <refType typeId="2b9a0190-843c-4904-bab3-356f00537f69" valueTypeId="6b7f8186-25a2-4202-a868-d28859fd6e57"/>
+    <listType typeId="00b1ec97-c951-46b5-a6f3-cea56ca67269" valueTypeId="48f00c82-8950-4cf1-ba76-2f0faa0bf48e"/>
+    <managerType typeId="25512a10-b7f7-47cf-aabc-9aff9b09b4a9" valueTypeId="1583f51b-b894-4614-8ae5-38369b6f7888"/>
+  </producedTypes>
+  <name>гисПоказателиТипы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы показателей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11071572-f6ce-410c-95bc-0872d7664899">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da0140d1-b42c-4eeb-b6a1-312b6f40241d">
+    <name>Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f418309-3b9b-4d60-8c49-ee828f5744ab">
+    <name>Справочник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

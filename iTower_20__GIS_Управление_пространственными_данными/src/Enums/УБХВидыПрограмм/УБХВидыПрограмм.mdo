@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5996212-1225-458d-8ce5-ab3f9341db97">
+  <producedTypes>
+    <refType typeId="3a1e8c7d-cb55-4d5f-b8fe-8ba8eb3ab19d" valueTypeId="24ad5251-34a5-4e86-aeb4-9ecacf75ce0a"/>
+    <listType typeId="1759fe05-3262-4a45-8a35-36d9dbe60a8e" valueTypeId="67041057-8501-4296-98d7-b72204c0105d"/>
+    <managerType typeId="12e8fb3d-cb21-4421-bcda-6e98598165ca" valueTypeId="69556242-a664-430e-bfb7-bf53294471b8"/>
+  </producedTypes>
+  <name>УБХВидыПрограмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды программ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХВидыПрограмм.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="3909b27d-bd7e-4256-9156-1c88c7374ae0">
+    <name>МФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71844bcf-fb1f-4f67-a18f-774f1e6df4a9">
+    <name>ПТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПТР</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="b623e9a1-0edf-43d3-8c6d-427318efe953">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

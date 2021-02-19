@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57a336ab-d5f0-4a78-826e-52ec06889639">
+  <producedTypes>
+    <objectType typeId="a23bc9bf-d7f3-49af-ac5d-d1ea25debf86" valueTypeId="da6b6a7f-6409-48e8-b7c5-81cd2318e694"/>
+    <refType typeId="09f54118-8aa5-42f8-b252-4e319ed116e8" valueTypeId="8fd9d3a0-8f1d-4566-9183-9a75a9eba5b3"/>
+    <selectionType typeId="d7608a5f-c8f8-497c-a09e-f15b1d4a7599" valueTypeId="48122695-1939-443c-80e4-2e7b660b7676"/>
+    <listType typeId="ef34ebea-2a0d-46b4-b23c-d72fbdc5881f" valueTypeId="30fddb82-ae7b-4983-b0c0-04d7caf09d74"/>
+    <managerType typeId="1fbf1202-9517-47c1-bd1e-17fa0a2aa9f4" valueTypeId="e656ab79-4560-4dd4-b8f4-3caf6ea8f885"/>
+  </producedTypes>
+  <name>УБХСтатусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХСтатусы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБХСтатусы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ffe971b9-6ce2-4a89-a23a-64ad712cc12e">
+      <name>Заявлено</name>
+      <description>Заявлено</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="2216996b-e449-472b-8225-911c8fc2a6b3">
+      <name>Черновик</name>
+      <description>Черновик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХСтатусы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="8dbcd883-fd7e-4fc4-a26f-1b01d8c52093">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХНазначениеСтатусов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="718b6f26-e9fa-45d1-b2bd-1f0e54e2e43c">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5816338c-e1bf-4834-9ea2-29d8e2a346fb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

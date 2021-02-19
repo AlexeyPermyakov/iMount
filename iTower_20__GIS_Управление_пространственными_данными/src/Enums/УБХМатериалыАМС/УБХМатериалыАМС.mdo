@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd18e6e4-5f94-4224-9c67-d5d36dc18f6b">
+  <producedTypes>
+    <refType typeId="3631df00-b9e1-4f9f-96e2-e9c5818f353f" valueTypeId="7b1aa788-d4ef-459c-9e5a-95aaa1e39b8b"/>
+    <listType typeId="c3760f37-68a5-4a85-95d8-3bb441899be5" valueTypeId="42693058-b351-48ae-97cd-b3fd38b16ab2"/>
+    <managerType typeId="ad2457ae-792e-4d62-a936-330a0c2035a3" valueTypeId="9d62c3dc-2bdc-4967-8a07-5381f5c9b518"/>
+  </producedTypes>
+  <name>УБХМатериалыАМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы АМС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХМатериалыАМС.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="8109ac40-aed8-432e-978c-bcf178d2ffd4">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e06adeb-8fbd-425e-b909-394e63588b4e">
+    <name>Сталь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сталь</value>
+    </synonym>
+    <comment>Steel</comment>
+  </enumValues>
+  <enumValues uuid="93839dd5-6d7f-4d5f-a3a8-68a44e8dc64c">
+    <name>Железобетон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Железобетон</value>
+    </synonym>
+    <comment>Ferroconcrete</comment>
+  </enumValues>
+  <enumValues uuid="784d50a4-2984-4b39-959f-eeab46e0ed5d">
+    <name>Алюминий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алюминий</value>
+    </synonym>
+    <comment>Aluminum</comment>
+  </enumValues>
+  <forms uuid="f7bb0ed2-82d2-46f7-9493-61959c283a70">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

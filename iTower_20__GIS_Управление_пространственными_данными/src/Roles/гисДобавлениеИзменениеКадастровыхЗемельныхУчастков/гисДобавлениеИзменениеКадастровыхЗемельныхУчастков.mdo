@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b713607-4891-454b-8299-5dba902ceeb2">
+  <name>гисДобавлениеИзменениеКадастровыхЗемельныхУчастков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение земельных участков</value>
+  </synonym>
+</mdclass:Role>

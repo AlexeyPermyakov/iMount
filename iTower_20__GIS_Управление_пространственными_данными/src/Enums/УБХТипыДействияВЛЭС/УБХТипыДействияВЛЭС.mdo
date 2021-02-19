@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d380a66-374d-4208-8253-7f3689fd84ea">
+  <producedTypes>
+    <refType typeId="ebb92d15-a44f-4b0f-a75d-21da3a3e402f" valueTypeId="92d1fa5c-96ae-4ac3-b18a-3f6626542d6c"/>
+    <listType typeId="41c50f73-0329-4f2a-b3d1-ffb4df6782b3" valueTypeId="4410ba24-8f8c-452f-bb15-a5ad6e1aba66"/>
+    <managerType typeId="ec633a03-1b46-4536-a92a-5dd405067aa6" valueTypeId="01efab7f-81f9-45e3-8292-824bce693f47"/>
+  </producedTypes>
+  <name>УБХТипыДействияВЛЭС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ВЛЭС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыДействияВЛЭС.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="0f5ca195-f2fa-4b78-853d-d7f175fbbc0d">
+    <name>Временная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b231dc0-4adf-4885-a66f-817bd84fd664">
+    <name>Постоянная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a6f8dbc-cd06-485e-9c0f-015038f63334">
+    <name>ВременноеПостоянное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временное и постоянное</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="42d7eb84-64b7-4e43-a219-8d1e202baaff">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

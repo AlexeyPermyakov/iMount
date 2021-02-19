@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.УБХСтроительство</subsystems>
+    <subsystems>Subsystem.УБХРазмещение</subsystems>
+    <subsystems>Subsystem.УБХУправлениеЗемельнымКомплексом</subsystems>
+    <subsystems>Subsystem.УБХЭксплуатация</subsystems>
+    <subsystems>Subsystem.УБХПроекты</subsystems>
+    <subsystems>Subsystem.УБХНСИ</subsystems>
+    <subsystems>Subsystem.УБХПроцессыИСогласование</subsystems>
+    <subsystems>Subsystem.гисГИС</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

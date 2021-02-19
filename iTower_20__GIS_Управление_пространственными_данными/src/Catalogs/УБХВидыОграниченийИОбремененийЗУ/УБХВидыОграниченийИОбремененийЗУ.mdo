@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9535a7cc-dad0-4335-9304-586f3e0c96b2">
+  <producedTypes>
+    <objectType typeId="b557d9a7-631b-48fe-9f48-dfc5baec356e" valueTypeId="240a236c-349b-4b59-83f8-5a2d71f5df2b"/>
+    <refType typeId="7db63267-04af-4341-bde8-2a34ec05bf47" valueTypeId="1c39f776-2989-4c4a-a246-73f9d4b9aa25"/>
+    <selectionType typeId="df328195-c492-4605-a8dd-132179f29f19" valueTypeId="0e23dd39-12a2-4e65-9cf2-785bb5af7bd5"/>
+    <listType typeId="ce8e9546-7b73-489a-9374-7baee9a2c557" valueTypeId="13353136-1752-4b03-afa0-02129819ce31"/>
+    <managerType typeId="f87745b5-82d7-4e18-b985-32416fa82b6e" valueTypeId="260097ce-53fa-49e0-9561-837bf68e8fc7"/>
+  </producedTypes>
+  <name>УБХВидыОграниченийИОбремененийЗУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ограничений и обременений ЗУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХВидыОграниченийИОбремененийЗУ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБХВидыОграниченийИОбремененийЗУ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХВидыОграниченийИОбремененийЗУ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБХВидыОграниченийИОбремененийЗУ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБХВидыОграниченийИОбремененийЗУ.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="4f3a06f8-06ad-4356-9f12-b49d6faf763c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="59683fb6-ec17-4738-ba92-bff4c464ab28">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ba3f132-72ed-47dc-9e16-0d02b1c6ad63">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

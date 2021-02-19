@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="460072d2-dd4e-4e79-aaf3-747f8fb4ee4c">
+  <producedTypes>
+    <refType typeId="73f91ffc-250d-42f8-8963-41e52fc0b4d3" valueTypeId="e3a9ee8a-e3f1-454b-a340-c6c2ff1d32a0"/>
+    <listType typeId="67bded29-afbf-4216-9ce5-0c46793faeda" valueTypeId="869ab558-a790-4db5-937a-14c2d2e911ed"/>
+    <managerType typeId="efa3c15c-7674-4290-a953-4296a3467f51" valueTypeId="04be8728-86c7-4175-809a-7abadd40957f"/>
+  </producedTypes>
+  <name>УБХСтатусыЗаписиОбОбъектеНедвижимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы записи об объекте недвижимости</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХСтатусыЗаписиОбОбъектеНедвижимости.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="9814c54d-a5e1-4acf-99bc-8762f45b9482">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4eafd0ec-8763-4eed-a16e-f5992b682b8c">
+    <name>Аннулированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулированный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6612778-5599-49ec-81da-d7db6650bcb2">
+    <name>АктуальныйНеЗасвидетельствованный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальный не засвидетельствованный</value>
+    </synonym>
+    <comment>CurrentNotWitnessed</comment>
+  </enumValues>
+  <enumValues uuid="dfc5966e-cbdf-4a68-a43f-47b81fd4c37c">
+    <name>Актуальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальный</value>
+    </synonym>
+    <comment>Current</comment>
+  </enumValues>
+  <forms uuid="e9e17d51-1c71-443d-a23b-c13a4317858f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

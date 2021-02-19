@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5911e4f-0840-4b0b-81a4-16f49a1368d4">
+  <name>АМСиПлощадка</name>
+  <synonym>
+    <key>ru</key>
+    <value>АМС и площадка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.УБХСейсмическиеРегионыУровнии</content>
+  <content>Enum.УБХТипыМестности</content>
+  <content>Enum.УБХГололедныеРайоныУровни</content>
+  <content>Enum.УБХСнеговыеРайоныУровни</content>
+  <content>Enum.УБХВетровыеРайоныУровни</content>
+  <content>Catalog.НоменклатурныеГруппы</content>
+  <content>Enum.УБХТипыРазмещенияНаПлощадке</content>
+  <content>Enum.УБХТочкиПодключенияЭПУ</content>
+  <content>Enum.УБХКатегорииАМС</content>
+  <content>Enum.УБХМатериалыАМС</content>
+  <content>Enum.УБХТипыКонструкцийАМС</content>
+  <content>Enum.УБХТипыУстановкиОпорыАМС</content>
+  <content>Enum.УБХТипыПоступленийАМС</content>
+  <content>Enum.УБХТипыВыбытияАМС</content>
+  <content>Catalog.УБХОсновныеСредства</content>
+  <parentSubsystem>Subsystem.УБХНСИ.Subsystem.Размещение</parentSubsystem>
+</mdclass:Subsystem>

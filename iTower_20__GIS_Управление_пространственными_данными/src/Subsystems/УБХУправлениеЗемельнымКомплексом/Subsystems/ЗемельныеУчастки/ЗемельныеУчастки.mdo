@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="994b30f2-2272-4a64-923c-94091728a975">
+  <name>ЗемельныеУчастки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Земельные участки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.УБХЗемельныеУчастки</content>
+  <content>b34c0e65-5bc0-4642-9465-f48de8bcb07a</content>
+  <content>38e3b6bf-aa5f-4af5-b4a2-cf76b53b08a6</content>
+  <parentSubsystem>Subsystem.УБХУправлениеЗемельнымКомплексом</parentSubsystem>
+</mdclass:Subsystem>

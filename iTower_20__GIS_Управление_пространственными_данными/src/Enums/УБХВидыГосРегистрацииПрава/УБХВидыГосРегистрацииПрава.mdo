@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1c56551-05f3-476e-9d79-6be917f7f478">
+  <producedTypes>
+    <refType typeId="0b651180-ba15-4245-83ab-2c21bd4413b7" valueTypeId="35fef48e-608e-4f85-8a28-594424ee57eb"/>
+    <listType typeId="bb9344cb-cc24-4c95-bd6e-9c71608b1794" valueTypeId="0a120bc5-686c-4589-b8f0-7d6e08d485dc"/>
+    <managerType typeId="d92db4da-c35b-4ad8-90b2-fab9871a1fcc" valueTypeId="e72fad5b-dc97-4f6b-a0e6-5ff0e4c8d1d8"/>
+  </producedTypes>
+  <name>УБХВидыГосРегистрацииПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды гос. регистрации права</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХВидыГосРегистрацииПрава.Form.ФормаВыбора</defaultChoiceForm>
+  <explanation>
+    <key>ru</key>
+    <value>Виды государственной регистрации права</value>
+  </explanation>
+  <enumValues uuid="e13e84fb-955d-4132-8015-0c9f38fe1391">
+    <name>ЖилыеПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация прав на жилые помещения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a813614f-5103-43a4-a784-aed8deb30c8e">
+    <name>НеЖилыеПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация прав на нежилые помещения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2bafee8-658b-49ff-b45f-5d2d7a20caf6">
+    <name>ЗемельныеУчастки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация прав на земельные участки</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="c892c553-2a30-4204-8ed4-625e425a7ccf">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

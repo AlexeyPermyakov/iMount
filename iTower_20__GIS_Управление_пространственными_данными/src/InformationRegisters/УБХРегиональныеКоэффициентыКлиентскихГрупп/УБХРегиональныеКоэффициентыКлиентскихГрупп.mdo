@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e450dfc-aaf9-4c03-9453-3579440615fb">
+  <producedTypes>
+    <selectionType typeId="eb8a7918-e474-4fa9-b9af-b9e57109cb7c" valueTypeId="825b3a3f-4e16-4f63-99f1-97e3cd3d6ab1"/>
+    <listType typeId="076288ee-1c1c-41fa-ae38-8e00bca5939d" valueTypeId="9bd2fb00-d2d6-491a-8214-4e1b9d9b18d4"/>
+    <managerType typeId="19471673-a918-4fc0-9ae5-941dc7bea155" valueTypeId="12a7b0a2-6075-4fbb-932e-2db7ecd3e829"/>
+    <recordSetType typeId="8dfa0f8e-4a14-4167-9121-e46e0ad3db2c" valueTypeId="4dcaac6e-c4bf-43ec-b258-4ee3a17d0163"/>
+    <recordKeyType typeId="c5868b9c-7f3d-4cae-a147-670bd8e71c02" valueTypeId="b93b0dbe-8473-46ca-8dac-8b0fb41b0de7"/>
+    <recordType typeId="1f07e173-0ff8-4d05-ac1c-06763e8fac90" valueTypeId="493a39ba-ac4e-40a3-8312-42e35634e50a"/>
+    <recordManagerType typeId="ed323312-2395-4a2c-a7f1-9757a99ce517" valueTypeId="6b6c6d4a-97ac-4c22-85f2-392a53918884"/>
+  </producedTypes>
+  <name>УБХРегиональныеКоэффициентыКлиентскихГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Региональные коэффициенты клиентских групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3ae8bca6-e04a-48a9-8922-cb4c87bf8b76">
+    <name>КоэффициентБашня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент изменения стоимости Заказа (башня)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7b807cf4-504e-4e4b-815f-cc162e890e05">
+    <name>КоэффициентСтолб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент изменения стоимости Заказа (столб)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8d727afa-d882-413d-a7b2-090cddb8bbfd">
+    <name>КлиентскаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентская группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХКлиентскиеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4b88c325-0745-4593-9e77-e6f7d77e8132">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъект РФ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

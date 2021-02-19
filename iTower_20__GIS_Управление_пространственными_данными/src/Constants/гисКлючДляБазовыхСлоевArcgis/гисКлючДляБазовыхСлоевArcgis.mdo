@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56689319-a597-4747-8019-81b82bfb8ffb">
+  <producedTypes>
+    <managerType typeId="f558fbd0-9f6e-462f-a5fb-e95aa838d2e7" valueTypeId="833e26c3-265b-46b9-9783-02479f225f27"/>
+    <valueManagerType typeId="4c4c8a78-4429-4a2a-ab94-d1d1b58ee936" valueTypeId="5071caa5-f9c7-45d7-82a9-816b2e177a6b"/>
+    <valueKeyType typeId="d04df9ad-af8f-5def-aaef-68235769aab2" valueTypeId="bc1caf3b-83eb-5fae-9e79-321be8651bea"/>
+  </producedTypes>
+  <name>гисКлючДляБазовыхСлоевArcgis</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подтверждаю, что у меня есть право использовать карты ArcGIS Online, и несу ответственность за выполнение лицензионного соглашения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

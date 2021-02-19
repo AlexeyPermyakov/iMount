@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d492564-f18e-4d25-bf34-5787b4e5d60f">
+  <producedTypes>
+    <refType typeId="d34f3f9d-6535-4831-9dab-29816282355d" valueTypeId="7ae75988-5bc6-4673-afae-cf0c5981b090"/>
+    <listType typeId="1bf21ab4-e5e1-4fe5-b77c-914c9953c0fe" valueTypeId="385fb30d-1c03-4729-8a4c-da48b97cda6e"/>
+    <managerType typeId="cfdc021a-1065-49e5-a6ce-1f36c4c4495b" valueTypeId="4dc068e1-5786-470d-a8c0-8b2b6e704e19"/>
+  </producedTypes>
+  <name>УБХТипыУстановкиОпорыАМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы установки опоры АМС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыУстановкиОпорыАМС.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="d53a630b-a9e6-4656-ac83-2f0ca20b8166">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5ada909-c9f9-426b-9614-8c30878dc236">
+    <name>НаЗемле</name>
+    <synonym>
+      <key>ru</key>
+      <value>На земле</value>
+    </synonym>
+    <comment>Ground_Main</comment>
+  </enumValues>
+  <enumValues uuid="816b67ea-f505-482e-b499-f8e7cb55a802">
+    <name>ПриставнаяНаЗемле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приставная на земле</value>
+    </synonym>
+    <comment>Ground_SideBySide</comment>
+  </enumValues>
+  <enumValues uuid="284a68dc-eb00-4519-bbe4-d691634bc3ca">
+    <name>ПриставнаяНаЗдании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приставная на здании</value>
+    </synonym>
+    <comment>Building_SideBySide</comment>
+  </enumValues>
+  <enumValues uuid="91bb6591-93ad-4c20-84a7-8874dd097531">
+    <name>ПригруженнаяКЗемле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пригруженная к земле</value>
+    </synonym>
+    <comment>Ground_Loaded</comment>
+  </enumValues>
+  <enumValues uuid="0da5a44c-e02c-4a59-8486-ea9ea4557b13">
+    <name>ОпораДвойногоНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опора двойного назначения (ОДН)</value>
+    </synonym>
+    <comment>Ground_Dual</comment>
+  </enumValues>
+  <enumValues uuid="7eaee5b0-9441-4224-80d2-9ce9b3568cf1">
+    <name>НаЗдании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На здании</value>
+    </synonym>
+    <comment>Building_Main</comment>
+  </enumValues>
+  <enumValues uuid="0dcb7af9-31eb-4fca-8bf8-eb787b970f16">
+    <name>Мобильная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильная (МАО)</value>
+    </synonym>
+    <comment>Ground_Mobile</comment>
+  </enumValues>
+  <forms uuid="c25369ac-149b-4991-ae3a-f8774312e832">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

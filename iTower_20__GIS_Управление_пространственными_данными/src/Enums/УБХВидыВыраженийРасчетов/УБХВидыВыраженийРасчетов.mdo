@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f73ebb87-a86f-45a0-8914-0f7ef152017f">
+  <producedTypes>
+    <refType typeId="dd548b8f-ddc1-4961-a763-0055b6aa3251" valueTypeId="6113c3ef-38ca-468b-be7d-3347ba422495"/>
+    <listType typeId="5fd9ae61-db1d-4b7a-9ae5-b64600306b5a" valueTypeId="a25a35f2-ba93-40d4-a1eb-eae99f96fc55"/>
+    <managerType typeId="6a8b8b0e-1a36-488a-971d-c18a27d940f5" valueTypeId="084ea971-a798-44ba-8fce-691f733cb923"/>
+  </producedTypes>
+  <name>УБХВидыВыраженийРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды выражений расчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2578d23b-497b-4cbe-b153-8ea9b25106ed">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54fab52e-a3c1-4cc2-9884-ef1d7a4c183c">
+    <name>Рубли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руб.</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

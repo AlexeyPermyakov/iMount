@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89309bc5-b414-4aae-af3c-b1a0b13f1903">
+  <name>УБХРазмещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размещение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УБХРазмещение</picture>
+  </picture>
+  <content>Style.iTower</content>
+  <content>Document.УБХЗапросНаРазмещениеОборудования</content>
+  <content>InformationRegister.УБХОборудованиеОбъектаПБК</content>
+  <content>Document.УБХВерсияЗапросаНаРазмещение</content>
+  <content>Enum.УБХТипыЗапросовРазмещения</content>
+  <content>Enum.УБХГруппыРазмещения</content>
+  <content>Enum.УБХТипыРазмещенийВКонтейнере</content>
+  <content>InformationRegister.УБХЗапросыКлиентовПБК</content>
+  <content>Catalog.УБХОборудование</content>
+  <content>CommonModule.УБХЗапросыРазмещения</content>
+  <content>InformationRegister.УБХОбъектыПлощадок</content>
+  <content>CommonPicture.УБХСведения</content>
+  <content>CommonPicture.УБХРазмещение</content>
+  <content>CommonPicture.УБХНСИ</content>
+  <content>CommonPicture.УБХОборудование</content>
+  <content>CommonPicture.УБХЗИК</content>
+  <content>CommonPicture.УБХЗемУчастки</content>
+  <content>CommonPicture.УБХЛесныеУчастки</content>
+  <content>CommonPicture.УБХПроекты</content>
+  <content>CommonPicture.УБХСтроительство</content>
+  <content>CommonPicture.УБХЭксплуатация</content>
+  <content>CommonPicture.УБХОборудованиеСтраница</content>
+  <content>CommonPicture.УБХСвязанные</content>
+  <content>CommonPicture.УБХЗадачи</content>
+  <content>CommonPicture.УБХИзображения</content>
+  <content>CommonPicture.УБХКарта</content>
+  <content>CommonPicture.УБХФорматА1</content>
+  <content>CommonPicture.УБХСтраницаДокументы</content>
+  <content>CommonTemplate.УБХКоммерческоеПредложение</content>
+  <content>DefinedType.УБХВысота</content>
+  <content>DefinedType.УБХКоординаты</content>
+  <content>Enum.СтавкиНДС</content>
+  <content>Enum.УБХКапитальностиАМС</content>
+  <content>Enum.УБХТипыВетровойНагрузки</content>
+  <content>CommonTemplate.УБХОписаниеИзмененийСистемы</content>
+  <content>Catalog.УБХТипыОборудования</content>
+  <content>CommonPicture.УБХВерсииЗапроса</content>
+  <content>CommonPicture.УБХРасчетСтоимости</content>
+  <content>Enum.УБХПоставщикиЭлектроэнергии</content>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2eec80d-6773-4674-8d5e-e85c53ff4d76">
+  <name>гисТипСлояПолигон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип слоя: полигон</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bd7aa91-3414-4355-bf6f-2539184c931c">
+  <producedTypes>
+    <refType typeId="a1354d7b-5420-4563-99e6-d2dd32dbb502" valueTypeId="fa8c8540-15cc-4f31-a6cb-48f7da2941e3"/>
+    <listType typeId="37e9a95f-d55a-4c01-b420-0ca5b4c9b774" valueTypeId="20013040-06b4-4e1b-b016-5b95a2ca741d"/>
+    <managerType typeId="a3a27ede-4eaf-4af6-b6b0-77ca79324e40" valueTypeId="1b491d3b-967e-4894-abcf-441e62b56934"/>
+  </producedTypes>
+  <name>лм_ТипыДействийТочкиОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы действий точки обработки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.лм_ТипыДействийТочкиОбработки.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="eadb31a3-c911-4425-99c6-7a233a6801ad">
+    <name>ПроизвольныйСценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный сценарий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2501fce-54c9-455a-b260-da488ee8c20e">
+    <name>СозданиеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbd3f4c3-aea9-47c6-8f56-d150948df6f2">
+    <name>ЗаписьОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56aece76-8fb9-4c2b-865e-0fc3e76b33bc">
+    <name>БлокировкаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d736f82a-fdb5-4428-bd6d-7231d6a184dd">
+    <name>РазблокировкаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разблокировка объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07a074da-0f12-4915-9b15-32d6be53641a">
+    <name>ЗаполнениеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0a7c016-653d-4aff-9040-45569278b7d7">
+    <name>ОтправкаПочтовогоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка почтового сообщения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1944d4d9-95ac-404e-a3ca-db6f1e01d04c">
+    <name>ИнициализацияДанныхСправочникаНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализация данных справочника НСИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78349900-a01f-4e19-9930-16ee3fa63ae6">
+    <name>ЗаписьДанныхСправочникаНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись данных справочника НСИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23a773a8-baa5-48e0-bcbe-ebecdfe2990a">
+    <name>ПереносПрисоединенныхФайловВЗаписьСправочникаНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос присоединенных файлов в запись справочника НСИ</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="c561435b-e100-4894-882f-ad74e066b821">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

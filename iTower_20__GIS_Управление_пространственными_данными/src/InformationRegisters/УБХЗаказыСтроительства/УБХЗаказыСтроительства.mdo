@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e285c150-d8d0-4328-97f2-ce7a0ac7363d">
+  <producedTypes>
+    <selectionType typeId="17bc06eb-df15-4f2d-9d0f-d17e9b48ad59" valueTypeId="95d752e2-a672-40ce-a7b1-6f9d4a02e234"/>
+    <listType typeId="d6eaeac7-ff98-427e-8319-97058a7cdd84" valueTypeId="17e360c7-b2da-49b4-9ddd-054f6158875b"/>
+    <managerType typeId="0b80442e-66ed-469b-b97e-c51b6a8d9801" valueTypeId="6f412873-e69b-4c61-aa14-86427ca951d8"/>
+    <recordSetType typeId="24c86325-c4ee-40a4-8692-4cad63ebdbb7" valueTypeId="fcd0f127-9344-4d31-b65a-6bcbfdaad0ac"/>
+    <recordKeyType typeId="dbca27ba-4864-473b-b0f3-4363936fa3ff" valueTypeId="06772916-ed35-45ee-b2b5-f5f770a3af99"/>
+    <recordType typeId="0240e0a5-cae7-4809-8e0d-3c5edb310492" valueTypeId="11e8f779-495b-4018-ab6a-c9d86a169ba2"/>
+    <recordManagerType typeId="ed037d2f-3da3-4071-8b0f-076525aae19b" valueTypeId="778b2768-1cd8-4c63-bf91-20d6e5842585"/>
+  </producedTypes>
+  <name>УБХЗаказыСтроительства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы строительства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bf4fc2ef-288b-4b23-8445-88b947f7c16b">
+    <name>ПроектСтроительства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект строительства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХПроектыСтроительства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b769e471-e55f-4e41-bb6b-68a6d554c0e3">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХПлощадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7e7be2f6-e115-4fec-b4ae-0e46284d5b4c">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

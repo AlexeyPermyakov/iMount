@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d5cf52-5774-49b9-9bc3-9e5a55a36b90">
+  <producedTypes>
+    <selectionType typeId="ad0d5b3f-46cb-4d48-a3a5-ea327a185a9a" valueTypeId="34460156-19f3-4398-bbdc-f6bf3759b1b3"/>
+    <listType typeId="424445e5-ba60-411e-8173-ad5a5c97256f" valueTypeId="daee019f-3218-4a2e-87c1-6cf584cf3b79"/>
+    <managerType typeId="0f57ce8b-0bb9-4c63-a0bf-8ea6f24b2887" valueTypeId="856b153d-2750-4ef1-87af-e186ab9c110a"/>
+    <recordSetType typeId="2d8d77c1-a2ba-4568-abc1-ef0958417a42" valueTypeId="1957f97a-6db5-499c-99eb-fd2fd46b5a3d"/>
+    <recordKeyType typeId="f90041fe-f143-41dd-9654-bf14fbb8a519" valueTypeId="994496df-d527-4566-892c-58307700dfd0"/>
+    <recordType typeId="832e1941-a73a-4252-b309-320985e5f6d2" valueTypeId="eeb67e0b-a387-4696-98dd-63280188ba7b"/>
+    <recordManagerType typeId="e5a7e439-be8e-41db-aa6c-388561224a52" valueTypeId="61232dfd-e84b-483a-a054-0e19e944d4ab"/>
+  </producedTypes>
+  <name>лм_УниверсальныеСтруктурыБулево</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальные структуры (булево)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="07f4fd87-5cf9-4390-aeda-3eaae285e6b6">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d77b3141-4eec-43c6-a63d-9499fbd0062d">
+    <name>ИдентификаторСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор структуры</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="80661dec-5e8e-429b-81da-05f0bb0458b0">
+    <name>ИдентификаторЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор элемента</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5e21c7c2-94e7-44a7-8afd-8a0f8f0bc110">
+    <name>ИдентификаторРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор реквизита</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="38993e6a-f889-42f6-a4ac-d1ef0050bfea">
+    <name>ИдентификаторСтрокиТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор строки таблицы</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

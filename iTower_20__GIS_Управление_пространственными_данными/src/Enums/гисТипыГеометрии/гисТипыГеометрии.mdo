@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c90a1b66-c83f-4595-8363-c03f579fb5e8">
+  <producedTypes>
+    <refType typeId="5250fd2a-420d-49dc-9f1c-8011f0b7eb4e" valueTypeId="13fa8463-aeb6-426a-9ee0-ca718cf289e0"/>
+    <listType typeId="0f683e08-ae5a-4502-b315-dc78836f4b4c" valueTypeId="f6d3b3e5-a624-4db2-9d71-839cfec33891"/>
+    <managerType typeId="12006f6d-c782-4340-a3a0-605420fa9ef4" valueTypeId="05619b9f-1247-44c7-b178-8241f1c317aa"/>
+  </producedTypes>
+  <name>гисТипыГеометрии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы геометрии</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="55519da2-4f9c-4fcf-93ea-0fb5d35ac48e">
+    <name>Точка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c51ec19d-367f-404e-8933-3ac782033eee">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59af0b7c-109d-4b66-9d11-5571ff29efd2">
+    <name>Полигон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полигон</value>
+    </synonym>
+  </enumValues>
+  <templates uuid="a2f5afcf-b84c-49a2-bfbd-82b55ed9b0f2">
+    <name>ПредпросмотрТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпросмотр точка</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8ba07eb4-f23a-41c2-a16e-87b5ceb9d331">
+    <name>ПредпросмотрЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпросмотр линия</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="10a49bc4-22c2-415b-b2cb-74e78e97b717">
+    <name>ПредпросмотрПолигон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпросмотр полигон</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Enum>

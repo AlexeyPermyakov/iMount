@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6337215-e797-47f0-b227-7624b66ce190">
+  <producedTypes>
+    <objectType typeId="afe2f7ef-7ec0-4f9d-ae28-d4f20fa5c6d3" valueTypeId="66a24771-33d9-4e37-90ee-2e3f81b43a16"/>
+    <refType typeId="eca7819b-0df2-4009-a4b3-2105c5660831" valueTypeId="90f9aac4-fd54-4e89-8c1f-c6b3725d5d8c"/>
+    <selectionType typeId="15bcfc2c-c2c0-4f85-9dd0-207bf9e50a22" valueTypeId="0ff9499a-4d58-44d1-a2bc-667412e44d9d"/>
+    <listType typeId="77ccd010-0a4e-4dcb-a8b2-84a70802a445" valueTypeId="8b634f83-11aa-43e4-9d0e-6401a713a940"/>
+    <managerType typeId="7af020db-486a-41e2-b335-4400ff663889" valueTypeId="aef25e5e-d91d-4bab-b2fb-14a92ba67f86"/>
+  </producedTypes>
+  <name>УБХАдминистративныеРайоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Административные районы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХАдминистративныеРайоны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБХАдминистративныеРайоны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХАдминистративныеРайоны.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБХАдминистративныеРайоны.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБХАдминистративныеРайоны.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="49a7652a-1ca6-48f1-8a79-0bb0a81962b2">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъект РФ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2260d3c5-c4dc-48dd-bc56-e6450c7676d4">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3b861e0d-d170-4728-a997-23fbfcbf6952">
+    <name>ОКТМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКТМО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c54441c9-e1ef-4e49-b756-a7a15b548c81">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1fb3a0c1-a01a-4347-8a66-6d4cd3ae7308">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0842fb04-0f64-4b41-a596-756848c84bf1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

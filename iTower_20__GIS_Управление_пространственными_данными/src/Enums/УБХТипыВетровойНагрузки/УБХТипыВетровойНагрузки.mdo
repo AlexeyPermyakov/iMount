@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="156bd56f-85ee-4097-85a0-0691a4d1cb4e">
+  <producedTypes>
+    <refType typeId="9b041268-72f9-4046-941c-f8075c4306c5" valueTypeId="18bbdb99-4c76-4a58-b7a5-70cba5fb4ee4"/>
+    <listType typeId="7efa8b8e-1ac6-4b54-b081-8313e1a60eb1" valueTypeId="1ed2b0f8-2081-4f4b-af26-08360b808c92"/>
+    <managerType typeId="86d0c309-db60-46c4-a31e-31d962de68d8" valueTypeId="2ff7ca19-7d5c-4892-aafd-c65ca20113b2"/>
+  </producedTypes>
+  <name>УБХТипыВетровойНагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ветровой нагрузки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыВетровойНагрузки.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="87d8ef52-506b-4039-b0b2-1eca893fb5cd">
+    <name>Прямоугольник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямоугольник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0c87c7c-504a-4f9d-adc5-4fd12a3e798d">
+    <name>Круг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Круг</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="84ecc629-d63e-4aba-8959-fe3e79a16de3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

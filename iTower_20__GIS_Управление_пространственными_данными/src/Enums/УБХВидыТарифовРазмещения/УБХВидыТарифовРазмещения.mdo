@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0176b1e-f555-4fab-9253-1eddc221fd1e">
+  <producedTypes>
+    <refType typeId="5d1cb549-adb7-4eba-8670-aae8a66de970" valueTypeId="39842609-e315-45c2-9e22-6db7eff650e3"/>
+    <listType typeId="1c8f1039-8cab-4275-aade-db411e93e3a0" valueTypeId="0d2406bf-5f4c-464a-a8ab-31f7896688da"/>
+    <managerType typeId="e91b3b97-fbab-4398-a4d8-fb14b86ef187" valueTypeId="25f2a191-97dc-484a-97d8-000f88c52fe6"/>
+  </producedTypes>
+  <name>УБХВидыТарифовРазмещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тарифов размещения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХВидыТарифовРазмещения.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="522075fb-aefb-4ab0-b2b1-23ea08c86b5b">
+    <name>Специальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f60c4a8c-db68-4b8b-95ec-d70b3bb7440c">
+    <name>Стандартный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="45fcd990-4973-4764-bd49-ccbb5a8eae0c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

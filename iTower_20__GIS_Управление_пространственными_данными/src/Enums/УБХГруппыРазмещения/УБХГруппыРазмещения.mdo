@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c082560-d1ef-43e9-86b0-d6cd691bba71">
+  <producedTypes>
+    <refType typeId="16e01a79-6f5d-4ed3-9fee-77e202838af7" valueTypeId="2680ac7c-0bb1-41bf-b76c-d2c92d4d2602"/>
+    <listType typeId="fc354de7-bd0d-4625-86a6-a214379c470b" valueTypeId="5cbc8cc6-35dd-46ef-a3de-1dabdc375eb8"/>
+    <managerType typeId="c33ef187-4c11-41aa-bcc7-22b9e958b7cf" valueTypeId="44f34151-1365-49dd-834c-50a53009eefd"/>
+  </producedTypes>
+  <name>УБХГруппыРазмещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы размещения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХГруппыРазмещения.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="e802b050-3a1a-443f-ad5a-3754e067b2ae">
+    <name>АМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АМС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82989fdb-99fa-48c9-8ce5-8bc303a3af4c">
+    <name>Контейнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7613374-2f14-41ca-b323-3eb45c78bcd6">
+    <name>ПлощадкаЗУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка/ЗУ</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="49b72ef6-348d-483c-8755-a5b8efe5a705">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

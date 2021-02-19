@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77eea615-a230-461e-8d0f-0bd9380f22fc">
+  <producedTypes>
+    <refType typeId="02039a3e-fdc4-4865-b4ef-c2d934d2d546" valueTypeId="d27198bf-48e1-4b27-9820-b210f96220b6"/>
+    <listType typeId="04240363-5afa-4a75-8e16-693b905a163a" valueTypeId="9c7c7038-16dc-4707-a270-26d9323d9398"/>
+    <managerType typeId="38085892-3bf6-4909-9063-a3fd3fbb4b78" valueTypeId="b757d405-1115-47e7-87e1-1836242ecdb7"/>
+  </producedTypes>
+  <name>УБХТипыКТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы КТП</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыКТП.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="6c5e1087-16d2-45ce-9745-41cf68734bf1">
+    <name>Киосковая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Киосковая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5d07144-3232-4779-80bd-226f198cffde">
+    <name>Мачтовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мачтовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2b141b8-2187-4df1-9e81-00628e48d887">
+    <name>Столбовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Столбовая</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="c4a9ab87-5d05-4c6f-9020-8e96625c9bfd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

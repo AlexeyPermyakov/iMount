@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7074c066-7f05-4ae9-8f19-421b453d4a4c">
+  <producedTypes>
+    <objectType typeId="296f727c-b4a5-44dc-ba14-8186e163a306" valueTypeId="f0c3e29f-3c0e-4171-a894-b8aee766f696"/>
+    <managerType typeId="19a4e286-a23d-449b-b04b-32f1014d2407" valueTypeId="27112d0e-e896-41f7-96a6-3378d4459d48"/>
+  </producedTypes>
+  <name>УБХНазначениеОтветственныхПоФилиаламРегионов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение ответственных по филиалам регионов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УБХНазначениеОтветственныхПоФилиаламРегионов.Form.Форма</defaultForm>
+  <attributes uuid="c1964d7b-505b-43e0-8adb-7eac28f57296">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="3498a5ea-9a9a-4a5c-85d7-183590b17aab">
+    <producedTypes>
+      <objectType typeId="3f2c14f5-0c08-48be-b5b7-12d84b500645" valueTypeId="c6929b5f-9660-4878-bbda-9c6f56f05853"/>
+      <rowType typeId="507778f1-1433-48ce-80b9-32126df0464c" valueTypeId="dfcb0850-53bd-4800-8a1e-5e99794f19fe"/>
+    </producedTypes>
+    <name>Ответственнные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственнные</value>
+    </synonym>
+    <attributes uuid="096c3bce-10a3-482b-9aa2-a2c5658f856b">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7da308cc-fdec-4558-a691-840545f7333b">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Филиал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБХПодразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5c6c9e73-4f75-4408-a6a8-30222b22634a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

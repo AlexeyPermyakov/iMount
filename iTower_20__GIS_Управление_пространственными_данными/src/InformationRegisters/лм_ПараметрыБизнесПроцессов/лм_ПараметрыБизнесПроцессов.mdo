@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbdc82e2-deef-4135-95e8-63c2a5e33238">
+  <producedTypes>
+    <selectionType typeId="484940ae-6866-4500-9eae-06399eeae463" valueTypeId="d7add63a-0008-4085-900b-b2976a90c06a"/>
+    <listType typeId="785a68a2-4135-43e1-b0eb-b5301f89dd05" valueTypeId="07234d5d-3fbf-443e-a8ba-b299ca96ca92"/>
+    <managerType typeId="95286e9d-3b68-4eb6-a6e7-7316b32b1232" valueTypeId="85ae79e8-37a8-4f51-9570-cec03b5b7d43"/>
+    <recordSetType typeId="17561522-96de-4d4e-ad97-c08e15b1f569" valueTypeId="9e09b933-0187-44de-88fb-7348c840b716"/>
+    <recordKeyType typeId="fb7a4fd9-88ba-4834-84ab-50020f23484c" valueTypeId="e4e2e5e9-d78e-4373-b234-355333ec9c8d"/>
+    <recordType typeId="fba535a1-7dcc-4a4b-b3f2-1a39261f168a" valueTypeId="489e5e0a-c790-41bc-b8f8-b8897a73adc5"/>
+    <recordManagerType typeId="f30a7f80-c6e7-4b66-8d73-7d0c3ac86ff1" valueTypeId="83beb288-3347-44b4-93e2-4b6847caa221"/>
+  </producedTypes>
+  <name>лм_ПараметрыБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры бизнес процессов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="3797ea8b-396f-4727-8555-fba1f061fcc0">
+    <name>ПараметрыБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры бизнес процесса</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b94c74a0-9b8c-4e7a-911a-9b2dd20635f2">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.лм_БизнесПроцесс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

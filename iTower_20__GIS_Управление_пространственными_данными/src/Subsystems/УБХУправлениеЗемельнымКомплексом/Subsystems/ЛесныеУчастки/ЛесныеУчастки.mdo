@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe4cf711-e0ce-4af9-afdf-e9a53469f173">
+  <name>ЛесныеУчастки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лесные участки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.УБХУправлениеЗемельнымКомплексом</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4076b609-52b0-40ec-899f-c787b9acd3c8">
+  <producedTypes>
+    <refType typeId="1fc108d2-bed5-499b-943a-56fa5f1b0d7a" valueTypeId="b763a8e7-2dc5-4d96-b0c8-9bdd5e327c3c"/>
+    <listType typeId="fb6095d3-f497-4937-bd52-23f3dd6b0425" valueTypeId="6ab77570-dffe-4c15-9a10-1d61d408a30e"/>
+    <managerType typeId="0be4307d-16e6-4311-a9ca-beb2bcb2fb03" valueTypeId="0340a302-1a93-4aa1-8791-d14f4691f1c6"/>
+  </producedTypes>
+  <name>УБХТипыРазмещенийВКонтейнере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы размещений в контейнере</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыРазмещенийВКонтейнере.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="527fd9ef-62b1-464b-b279-4d3d2919c323">
+    <name>НастенныйШкаф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настенный шкаф</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="386064db-08ac-4b37-bfc8-8e10aee8060b">
+    <name>СтойкоМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стойко-место</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6827fa33-c6d0-4611-9645-79ad06461c65">
+    <name>ВСтойке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В стойке</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="0f258608-d8ea-4cfb-9a58-22f894b31402">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

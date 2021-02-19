@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0f62301-78a0-42d4-91dd-7083c289b76b">
+  <producedTypes>
+    <refType typeId="030788c2-75fa-4ef7-885e-016b3cdd06d8" valueTypeId="e7201549-b01e-4cfe-97e2-1311932baf8f"/>
+    <listType typeId="a473579d-93cb-4600-928a-871bcf9c2199" valueTypeId="2046e475-82e6-4b08-99d7-d9c01b288f27"/>
+    <managerType typeId="bc330a15-02a1-472d-a0c3-1f796de2a437" valueTypeId="f3566984-4bb6-444f-a986-4f9d76aff13e"/>
+  </producedTypes>
+  <name>УБХТипыКонструкцийАМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы конструкций АМС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыКонструкцийАМС.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="2f9c7405-6429-4a8f-80b0-ed2f3c7bef20">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18e882b2-58d9-4691-953f-df2d30bbdd04">
+    <name>Башня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Башня</value>
+    </synonym>
+    <comment>Tower</comment>
+  </enumValues>
+  <enumValues uuid="5a3d57e2-ef05-4d63-994e-4b536af326aa">
+    <name>Мачта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мачта</value>
+    </synonym>
+    <comment>Mast</comment>
+  </enumValues>
+  <enumValues uuid="a7b0b533-c0f4-448d-932a-b5557ed0f362">
+    <name>Столб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Столб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a7bfed3-c139-4d5c-9285-8e7396e59914">
+    <name>ТрубаКотельной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Труба котельной</value>
+    </synonym>
+    <comment>Stack</comment>
+  </enumValues>
+  <forms uuid="fae1389f-e39f-44ba-a087-cbab0abcaf32">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

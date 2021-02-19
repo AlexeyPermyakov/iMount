@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cdfcf0b-9550-4601-93e1-6905dae56286">
+  <producedTypes>
+    <refType typeId="61e49c31-1aaf-42dd-90ee-a43913319cf2" valueTypeId="eef9a99c-7fff-456f-bb3e-b235aadf1768"/>
+    <listType typeId="acfb1a36-138f-4a52-978c-f5d3a55e234c" valueTypeId="e673b138-be52-49f2-acde-8c1742d2902d"/>
+    <managerType typeId="bc12282a-88ea-4876-aa1f-8ae2f1dc28de" valueTypeId="de1ebad8-686e-4ad3-9752-c3994580f7d0"/>
+  </producedTypes>
+  <name>УБХГололедныеРайоныУровни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гололедные районы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХГололедныеРайоныУровни.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="4ee690a6-951a-4bfc-83ef-f750131e0b6c">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7010633e-f7ed-462a-86a3-1b0063f74524">
+    <name>Первый</name>
+    <synonym>
+      <key>ru</key>
+      <value>I</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb5e5e60-43c0-4477-a15c-480734045b15">
+    <name>Второй</name>
+    <synonym>
+      <key>ru</key>
+      <value>II</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd012296-9380-475d-b8b9-248def0abd7a">
+    <name>Третий</name>
+    <synonym>
+      <key>ru</key>
+      <value>III</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3d2e2d1-c3f9-4634-b12c-bbe834948c91">
+    <name>Четвертый</name>
+    <synonym>
+      <key>ru</key>
+      <value>IV</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db9cbe78-5ecc-4340-91f8-137953f83f85">
+    <name>Пятый</name>
+    <synonym>
+      <key>ru</key>
+      <value>V</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="46cf6f10-3bd9-4d5b-b87a-2d2484d74375">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

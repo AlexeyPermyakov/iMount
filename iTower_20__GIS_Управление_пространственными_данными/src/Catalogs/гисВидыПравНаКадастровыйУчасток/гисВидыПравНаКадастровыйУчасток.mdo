@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="502757b4-2897-4be9-ae03-9e18b7228d26">
+  <producedTypes>
+    <objectType typeId="2a471b12-853a-4f69-b219-7fd5f2b7f64f" valueTypeId="e090142d-ccb1-4a71-808d-75574585609f"/>
+    <refType typeId="ead14e20-e749-4cb6-887d-5b7e06a4e757" valueTypeId="2416d001-7997-4af3-83ab-dd023bd04fcb"/>
+    <selectionType typeId="20196d43-0a77-4b09-88f2-947eaadc73c9" valueTypeId="19e4af95-3583-45f0-8769-503844b91840"/>
+    <listType typeId="ab4fc53d-474e-4fe4-a57c-ffa5c4d08c6e" valueTypeId="0dc368a6-1639-456e-9588-ddd1cb880f1e"/>
+    <managerType typeId="d117933e-b98c-4b69-a712-3171bf792513" valueTypeId="0600ca7d-4a43-47ae-be1a-92a96714bd2e"/>
+  </producedTypes>
+  <name>гисВидыПравНаКадастровыйУчасток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды прав на кадастровый участок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гисВидыПравНаКадастровыйУчасток.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гисВидыПравНаКадастровыйУчасток.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование вида прав на кадастровый земельный участок</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код вида прав на кадастровый земельный участок</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды права на кадастровый участок</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="42bba392-57fe-43a6-9c08-970e10c3a331">
+      <name>ДолеваяСобственность</name>
+      <description>Долевая собственность</description>
+      <code xsi:type="core:StringValue">
+        <value>001002000000</value>
+      </code>
+    </items>
+    <items id="ec7bcf78-faba-4a3d-ae5f-877cba4f83db">
+      <name>ИныеПрава</name>
+      <description>Иные права</description>
+      <code xsi:type="core:StringValue">
+        <value>001099000000</value>
+      </code>
+    </items>
+    <items id="a87646e3-b14e-40eb-bcfd-133260092384">
+      <name>ОперативноеУправление</name>
+      <description>Оперативное управление</description>
+      <code xsi:type="core:StringValue">
+        <value>001005000000</value>
+      </code>
+    </items>
+    <items id="26404017-955b-467b-8421-34a7b20617dd">
+      <name>ПожизненноеНаследуемоеВладение</name>
+      <description>Пожизненное наследуемое владение</description>
+      <code xsi:type="core:StringValue">
+        <value>001006000000</value>
+      </code>
+    </items>
+    <items id="6c94356e-e2b7-42f9-8bb0-3a713e92fd88">
+      <name>ПостоянноеПользование</name>
+      <description>Постоянное (бессрочное) пользование</description>
+      <code xsi:type="core:StringValue">
+        <value>001007000000</value>
+      </code>
+    </items>
+    <items id="74eda90f-7503-4ea3-b28d-3f07036aa881">
+      <name>Сервитут</name>
+      <description>Сервитут (право)</description>
+      <code xsi:type="core:StringValue">
+        <value>001008000000</value>
+      </code>
+    </items>
+    <items id="035b6ebe-0f90-4a3b-97e4-2fd008494b33">
+      <name>Собственность</name>
+      <description>Собственность</description>
+      <code xsi:type="core:StringValue">
+        <value>001001000000</value>
+      </code>
+    </items>
+    <items id="257a46e1-d915-40bc-a3ee-9c26fcc69542">
+      <name>СовместнаяСобственность</name>
+      <description>Совместная собственность</description>
+      <code xsi:type="core:StringValue">
+        <value>001003000000</value>
+      </code>
+    </items>
+    <items id="007106ce-37fc-41c4-ac48-f2df089fdf64">
+      <name>ХозяйственноеВедение</name>
+      <description>Хозяйственное ведение</description>
+      <code xsi:type="core:StringValue">
+        <value>001004000000</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

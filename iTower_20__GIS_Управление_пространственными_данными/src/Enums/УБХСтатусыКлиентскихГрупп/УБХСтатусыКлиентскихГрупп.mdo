@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce3ea06d-60a4-41d2-83bb-81aeab314caf">
+  <producedTypes>
+    <refType typeId="a1dfa91e-70d0-453e-a191-fda994ec6a60" valueTypeId="c80b96f3-3322-42ca-9ad3-6edd01968cf2"/>
+    <listType typeId="ce12d8af-23c9-4858-8529-4fbf5cb4b7c2" valueTypeId="eeeaa059-d15b-40aa-b890-bfc64f2dec81"/>
+    <managerType typeId="1ca6ddc9-e3e2-4d3e-a36e-f38378c5a0d5" valueTypeId="e72cdfe8-f326-4ea9-953a-f1944ba76ef1"/>
+  </producedTypes>
+  <name>УБХСтатусыКлиентскихГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы клиентских групп</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХСтатусыКлиентскихГрупп.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="79db1f9c-92ce-4267-a6d5-b0cc76c2ba3c">
+    <name>Подтверждена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Да</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d930b12-9fca-4023-969c-585fbe4a1615">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="200fb775-f5f2-4c24-9b90-9cb74a9172ce">
+    <name>НеПодтверждена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="d7a33a90-bca7-4bb3-8070-4f60070b953f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

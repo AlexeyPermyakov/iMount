@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a24bbdb7-da1b-4cb8-b153-526da0773d27">
+  <producedTypes>
+    <refType typeId="3073997f-06e4-4ac8-baa3-b772cc2a5144" valueTypeId="824d19ca-60c9-43ac-a4e5-99d7cf6fd3fc"/>
+    <listType typeId="fded3849-aee7-44ec-b3f7-441dcc220ff5" valueTypeId="1992d246-333c-4806-8194-31ae834d129f"/>
+    <managerType typeId="023f74be-58de-40ca-98af-732127c8bf81" valueTypeId="ba06a522-e559-437d-85e8-7ea594ef4577"/>
+  </producedTypes>
+  <name>УБХВетровыеРайоныУровни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ветровые районы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХВетровыеРайоныУровни.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="83d7d8a3-0c9e-489c-8642-a4fd96823c94">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1a90428-acd7-4320-a34c-8d85d6a5f609">
+    <name>Первый</name>
+    <synonym>
+      <key>ru</key>
+      <value>I</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b94ddd40-a3b0-4856-bce7-99388cf4474c">
+    <name>ПервыйА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ia</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1677bf68-9c2e-4113-a22c-16a0a57a0540">
+    <name>Второй</name>
+    <synonym>
+      <key>ru</key>
+      <value>II</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0599a81-f36d-4211-b806-80502963fec7">
+    <name>Третий</name>
+    <synonym>
+      <key>ru</key>
+      <value>III</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0de9b48a-a7d9-4616-944f-5473fd7bbf02">
+    <name>Четвертый</name>
+    <synonym>
+      <key>ru</key>
+      <value>IV</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83de949b-810c-4dd1-8048-90cc8f5473bd">
+    <name>Пятый</name>
+    <synonym>
+      <key>ru</key>
+      <value>V</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38b48700-5dd8-40fa-86d2-395cb85a09da">
+    <name>Шестой</name>
+    <synonym>
+      <key>ru</key>
+      <value>VI</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d7a7a13-885f-47c2-932b-b0d1d6d0a05e">
+    <name>Седьмой</name>
+    <synonym>
+      <key>ru</key>
+      <value>VII</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="ada732bd-b23f-43a2-b5db-d236710297d8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

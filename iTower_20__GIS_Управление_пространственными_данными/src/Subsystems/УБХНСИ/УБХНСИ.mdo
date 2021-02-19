@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06a8dd1d-0f36-4ab7-a412-a5e71e527ac1">
+  <name>УБХНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УБХСправочникиРаздел</picture>
+  </picture>
+  <content>Style.iTower</content>
+  <content>Enum.УБХМатериалыАМС</content>
+  <content>Enum.УБХКатегорииАМС</content>
+  <content>Enum.УБХТипыКонструкцийАМС</content>
+  <content>Enum.УБХТипыУстановкиОпорыАМС</content>
+  <content>Enum.УБХТипыПоступленийАМС</content>
+  <content>Enum.УБХТипыВыбытияАМС</content>
+  <content>Enum.УБХТипыЗапросовРазмещения</content>
+  <content>Enum.УБХГруппыРазмещения</content>
+  <content>Enum.УБХТипыРазмещенийВКонтейнере</content>
+  <content>Enum.ВидыКонтактныхЛиц</content>
+  <content>Enum.Периодичность</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Enum.ЮрФизЛицо</content>
+  <content>Enum.УБХСостоянияКонтрагентов</content>
+  <content>CommonPicture.УБХКонтактныеЛица</content>
+  <content>Enum.УБХТипыДействияВЛЭС</content>
+  <content>Enum.УБХСпособыПрокладкиВЛЭС</content>
+  <content>Enum.УБХТипыКТП</content>
+  <content>DefinedType.УБХОбъектыПлощадки</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>1266e46c-9a8d-4d0c-86a1-55de2841d812</content>
+  <subsystems>ЗИК</subsystems>
+  <subsystems>Размещение</subsystems>
+  <subsystems>Оборудование</subsystems>
+  <subsystems>РегионыИФилиалы</subsystems>
+  <subsystems>Эксплуатация</subsystems>
+  <subsystems>РасчетСтоимости</subsystems>
+  <subsystems>Прочее</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b441cdf-bb65-4934-a7c0-a5216b63add0">
+  <name>Тематика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тематика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.гисПоказатели</content>
+  <content>Document.гисВводЗначенийПоказателяПоОбъектам</content>
+  <content>Document.гисВводЗначенийПоказателейПоОбъекту</content>
+  <content>InformationRegister.гисЗначенияПоказателейОбъектов</content>
+  <content>Enum.гисПоказателиПериодичность</content>
+  <content>Enum.гисПоказателиТипы</content>
+  <parentSubsystem>Subsystem.гисГИС</parentSubsystem>
+</mdclass:Subsystem>

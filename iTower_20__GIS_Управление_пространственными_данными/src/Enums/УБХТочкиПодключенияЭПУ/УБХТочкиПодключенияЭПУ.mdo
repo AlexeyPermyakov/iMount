@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d5124fc-f5ab-42df-906a-f79bde033e7b">
+  <producedTypes>
+    <refType typeId="69a6c7d0-1c2a-41c5-aaef-23b86ab1e6b2" valueTypeId="d769ad62-bf8d-4c1a-af62-0cc3e78bd452"/>
+    <listType typeId="ae3a5ff9-43e8-4990-8142-a30b7b403ba1" valueTypeId="6ab0fd2d-8aac-4d42-9bc4-18cb3bf13c66"/>
+    <managerType typeId="bb85c355-c1ef-4d07-80c7-6b859376e277" valueTypeId="15dc2eb7-b98c-4ffd-a6ed-dafd65855f4e"/>
+  </producedTypes>
+  <name>УБХТочкиПодключенияЭПУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки подключения к ЭПУ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТочкиПодключенияЭПУ.Form.ФормаВыбора</defaultChoiceForm>
+  <explanation>
+    <key>ru</key>
+    <value>Точки подключения к энергопринимающим устройствам</value>
+  </explanation>
+  <enumValues uuid="95f4b39f-1f58-4883-b0fc-dbf745ab5f9f">
+    <name>РЩ</name>
+    <synonym>
+      <key>ru</key>
+      <value>РЩ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d004f2b-e6bb-4866-9196-ce6a109ee167">
+    <name>ЩУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЩУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a2b0795-0453-46ce-858d-42843f65a33b">
+    <name>ЩУР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЩУР</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="40acec4e-38a5-419f-abd0-d180293bb7bb">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

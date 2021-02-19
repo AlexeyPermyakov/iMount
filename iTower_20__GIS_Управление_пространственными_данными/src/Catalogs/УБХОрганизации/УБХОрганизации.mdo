@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f4fda53-ce03-4ad6-9493-d110ffae27bd">
+  <producedTypes>
+    <objectType typeId="dfe721e1-4714-48b0-8431-083d94d87617" valueTypeId="49d1de6b-9201-4a28-896c-046ee6459198"/>
+    <refType typeId="0ed805b2-5697-4861-854b-3275526c9944" valueTypeId="a271c51c-abce-449a-b995-97fcfa070221"/>
+    <selectionType typeId="a991b3cd-7736-42e2-af0e-4693c9a9fd6e" valueTypeId="29832e78-44a2-484c-abff-2e0e5aed514f"/>
+    <listType typeId="8028236f-1a02-4b67-b5af-139edd0e3bdc" valueTypeId="566e10b6-18f2-4ac2-861a-f4b86d5d417f"/>
+    <managerType typeId="57f7e808-028a-4f0b-b724-e9161a199b7e" valueTypeId="74d40a26-2c6d-4576-a55d-6278ef60b408"/>
+  </producedTypes>
+  <name>УБХОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХОрганизации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УБХОрганизации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХОрганизации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБХОрганизации.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБХОрганизации.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="9c46d363-cff9-46da-ae47-a288676aebea">
+    <name>РегламентированныйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентированный учет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93cd620c-c2c6-450f-941d-a4b9aae54037">
+    <name>ГруппаОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа организации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБХГруппыОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a51c6360-efef-44f8-b28d-85119d106238">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="afbdfb57-ef0c-49fb-bfc9-7e8a668c0b9c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3262280-1c6b-4ee8-8f59-7ee5fff44935">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50a4e374-4204-46af-bb57-2090a5e695e5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

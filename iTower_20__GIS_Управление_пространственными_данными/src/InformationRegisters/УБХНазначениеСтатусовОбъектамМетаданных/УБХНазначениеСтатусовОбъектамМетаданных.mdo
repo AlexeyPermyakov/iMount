@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="420bed42-3ae6-4793-a661-12dca1fea1ba">
+  <producedTypes>
+    <selectionType typeId="cb50ffc2-1bbf-4e58-8f7a-f9466608709b" valueTypeId="fd917eef-63dc-4a3b-aba5-5daf711cfc4f"/>
+    <listType typeId="249506a4-bf6b-4a2a-9aaa-1c64ddb06d0e" valueTypeId="e9d27dee-ee40-489e-8012-064e9de18167"/>
+    <managerType typeId="e04d142c-ce99-4327-a113-a33484c78a6f" valueTypeId="4e771823-bde3-4f5c-a659-aae0b939a282"/>
+    <recordSetType typeId="c4f73a95-e5ea-4535-bdc5-e8f3510f6086" valueTypeId="faba997c-742f-42f2-97ab-4de8802a76db"/>
+    <recordKeyType typeId="caddbcdb-558f-4376-b3e9-caac71ea0fe0" valueTypeId="b0c40476-f1fc-4bac-8e71-f75489bbc5e1"/>
+    <recordType typeId="4b8938c7-367e-45e6-87e8-bca5f3068fea" valueTypeId="64340bbf-9981-4c50-bdaa-9bba1cb6c76f"/>
+    <recordManagerType typeId="936ec6b8-e5dd-4d4e-b7b6-70f3e9e4a0b9" valueTypeId="d70790fc-89fa-418c-9e88-de323b7d89ff"/>
+  </producedTypes>
+  <name>УБХНазначениеСтатусовОбъектамМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение статусов объектам метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d453fe2c-39f8-4da5-8eaa-ff92b808b299">
+    <name>НазначениеСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение статуса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ae43a020-53d9-4ea0-96b8-8a49d6de7c9a">
+    <name>ИдентификаторОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.УБХПараметрыТарифаПороговыхВысотПодвеса.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.УБХТарифыРазмещения.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УБХКомпенсацииЗаЭлектроэнергию.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УБХРегиональныеКоэффициентыКлиентскихГрупп.StandardCommand.OpenList</commands>
+      <commands>Catalog.УБХТипыКабеля.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УБХСкидкиЗаОбщийОбъем.StandardCommand.OpenList</commands>
+      <commands>Catalog.УБХКлиентскиеГруппы.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УБХКоэффициентыКлиентскихГрупп.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УБХПараметрыТарифаПороговыхВысотПодвеса.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

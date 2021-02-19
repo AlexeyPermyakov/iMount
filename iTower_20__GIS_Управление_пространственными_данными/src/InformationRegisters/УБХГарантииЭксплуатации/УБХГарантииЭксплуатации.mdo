@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9550c564-029d-4712-94ad-2586b502d980">
+  <producedTypes>
+    <selectionType typeId="7fa7c2bc-96ff-4fdd-9cd6-66d8d8001118" valueTypeId="e9109146-b0df-49e7-a7c0-1f88cb85a094"/>
+    <listType typeId="d519ec11-c60c-4213-bbf6-6fd026b72f02" valueTypeId="cbfe859e-4559-4906-8452-bfd8e45c18a0"/>
+    <managerType typeId="499b17bb-bd55-4d40-be8d-5723eb1ed19c" valueTypeId="ca21f520-7111-4f0a-9a46-3680509d217c"/>
+    <recordSetType typeId="e59ffa5e-b8fc-4089-b5c4-81bef5369685" valueTypeId="ad3f938f-3c06-48e6-bc57-fd65fd7545f2"/>
+    <recordKeyType typeId="293a767d-6f2c-4c76-b7be-f7379e70e7b6" valueTypeId="7f1bdac1-812a-4377-aa3a-a1b4225edc58"/>
+    <recordType typeId="3931bf31-59b4-4e00-9308-b097cc617289" valueTypeId="21454797-89d9-4e04-94e4-a72335e45671"/>
+    <recordManagerType typeId="5a98afc4-0437-4763-a389-4b7ea9419a18" valueTypeId="6766a60d-6fed-4f5b-a67e-e39576aa93ec"/>
+  </producedTypes>
+  <name>УБХГарантииЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гарантии эксплуатации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a16d4472-b615-4068-b852-b0b379d2e1e0">
+    <name>СрокЛКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок гарантии ЛКП</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d48cbcf0-3e38-4669-8d85-98bc5f164faa">
+    <name>СрокАМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок гарантии АМС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cb7e5c8f-0217-46cd-9dff-42419bd60db3">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dae2d241-19ef-440f-9e7b-c6375e12bc51">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Enum.ВидыКонтактныхЛиц.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.ФизическиеЛица.StandardCommand.OpenList</commands>
+      <commands>Catalog.КонтактныеЛица.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.УБХНСИ.Subsystem.Прочее</subsystems>
+    <subsystems>Subsystem.УБХНСИ.Subsystem.РегионыИФилиалы</subsystems>
+    <subsystems>Subsystem.УБХНСИ.Subsystem.РасчетСтоимости</subsystems>
+    <subsystems>Subsystem.УБХНСИ.Subsystem.ЗИК</subsystems>
+    <subsystems>Subsystem.УБХНСИ.Subsystem.Эксплуатация</subsystems>
+    <subsystems>Subsystem.УБХНСИ.Subsystem.Размещение</subsystems>
+    <subsystems>Subsystem.УБХНСИ.Subsystem.Оборудование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

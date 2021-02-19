@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="025088fb-569d-441a-87ec-86d7636bc5e9">
+  <producedTypes>
+    <refType typeId="067f6f25-059a-4a95-a3c4-85f894f22fc2" valueTypeId="e24c1d42-1e57-426b-99c9-acba2c32dc4e"/>
+    <listType typeId="8d5e65ed-e8b5-4802-b2f1-c30d68c5e262" valueTypeId="6944c233-fcdb-4b89-be6a-312889c4ceb4"/>
+    <managerType typeId="ea52870c-428e-49b3-bbcd-13c8573462f3" valueTypeId="bf69b873-9ceb-4ed1-8204-f1b0ad63b479"/>
+  </producedTypes>
+  <name>УБХСостоянияКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния контрагентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХСостоянияКонтрагентов.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="b467aa42-5cce-40e5-95ce-fb8c59c6dd3f">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f42bac46-1aa0-44a3-8ec6-eebd71cd5660">
+    <name>Ликвидировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ликвидированное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="915f2527-ee46-479e-aa59-965c8b0fffe1">
+    <name>Присоединено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прекратило деятельность при присоединении</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="64f7ebbd-2045-451f-bc06-662c2ee95847">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

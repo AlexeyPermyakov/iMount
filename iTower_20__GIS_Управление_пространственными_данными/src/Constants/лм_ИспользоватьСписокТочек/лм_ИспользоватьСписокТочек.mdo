@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b5c6a52-3905-4e5b-91e7-a97ab4e15de1">
+  <producedTypes>
+    <managerType typeId="fa2c64a5-a9d7-4cbc-899a-1029baa4d660" valueTypeId="0a1a73af-6e7e-490a-833c-fe0737c5f654"/>
+    <valueManagerType typeId="ba7ce91b-c1bd-47ea-9366-f3b382ead9bc" valueTypeId="05ab8658-306b-40f5-b3b6-7214d406664e"/>
+    <valueKeyType typeId="5eb44b96-4a9b-4283-abc1-56c846a05251" valueTypeId="f5d3b682-de93-4780-b29e-56b936636ac8"/>
+  </producedTypes>
+  <name>лм_ИспользоватьСписокТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать список точек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

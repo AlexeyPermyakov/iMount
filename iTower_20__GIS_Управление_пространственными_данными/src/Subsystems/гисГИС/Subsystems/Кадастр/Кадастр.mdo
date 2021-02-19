@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4991fedf-572c-4b2b-b73e-d21e26f093e3">
+  <name>Кадастр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадастр</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.гисСтатусыКадастровыхУчастков</content>
+  <content>Catalog.гисПараметрыПереводаВWgs84</content>
+  <content>Catalog.гисКатегорииЗемель</content>
+  <content>Catalog.гисКадастровыеЗемельныеУчасткиПрисоединенныеФайлы</content>
+  <content>Catalog.гисКадастровыеЗемельныеУчастки</content>
+  <content>Catalog.гисКадастровыеДокументыПрисоединенныеФайлы</content>
+  <content>Catalog.гисВидыРазрешенногоИспользования</content>
+  <content>Catalog.гисВидыПравНаКадастровыйУчасток</content>
+  <content>Catalog.гисВидыКадастровыхУчастков</content>
+  <content>Document.гисКадастровыеДокументы</content>
+  <content>Enum.гисТипыКадастровыхДокументов</content>
+  <content>InformationRegister.гисПраваНаКадастровыйУчасток</content>
+  <parentSubsystem>Subsystem.гисГИС</parentSubsystem>
+</mdclass:Subsystem>

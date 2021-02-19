@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5230bb95-ba62-4e5b-887c-6f33fccd72c4">
+  <producedTypes>
+    <objectType typeId="f7addfda-ff79-40b5-a6b3-b65a1eebb4b1" valueTypeId="17d10d37-7bb0-4cd4-9f5f-32b585fc0cab"/>
+    <refType typeId="e8000700-c76b-406d-9ed0-07a6ed888b41" valueTypeId="90b64fbf-bbd6-4c95-af06-2f4e8da7b5a6"/>
+    <selectionType typeId="fb2992ba-1215-4f02-b587-5b82a329d1d4" valueTypeId="63c0da17-76b8-4a00-9abc-3c4d9a92b1f8"/>
+    <listType typeId="a95950d3-2bb3-4f89-b1b1-1b911629e396" valueTypeId="86479bc7-5c67-445e-b609-89680ca95c7a"/>
+    <managerType typeId="50317010-45f8-4296-b321-7aef715ae737" valueTypeId="4636df43-0a7c-4ae3-9765-1a756b18df84"/>
+  </producedTypes>
+  <name>УБХНазначениеСтатусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение статусов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХНазначениеСтатусов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХНазначениеСтатусов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБХНазначениеСтатусов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБХНазначениеСтатусов.Form.ФормаВыбора</defaultChoiceForm>
+  <tabularSections uuid="62499dcc-4f51-4541-be0d-f441f58c81a7">
+    <producedTypes>
+      <objectType typeId="cff38cfb-709b-4f48-b9e7-da72dab9b458" valueTypeId="a8b29ad8-0262-486b-8e97-56b027c21c1a"/>
+      <rowType typeId="0351a511-c4cc-4f3c-a0f3-7bc637004835" valueTypeId="6cf1b68c-f8e9-48c4-81a6-8f377835dcd4"/>
+    </producedTypes>
+    <name>ИдентификаторыОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификаторы объектов</value>
+    </synonym>
+    <attributes uuid="9a5532ff-801c-4734-9af3-b46e3118153c">
+      <name>ИдентификаторОбъекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор объекта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f3b13711-f33b-4ef1-a66e-82d95411de5a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ce36c7f-e777-4611-b6af-fa95f14f36d8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db5748fb-053e-44e9-b019-b490cf487be9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

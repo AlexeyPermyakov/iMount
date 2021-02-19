@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d9ccf8-22bc-48bc-8d78-7c9fbbc208ed">
+  <producedTypes>
+    <refType typeId="124f3990-ea0d-4ae3-af2c-f33286c850b0" valueTypeId="22ba7a07-1686-427d-80fa-002ae705dee2"/>
+    <listType typeId="c88ff0e5-4e8d-4e88-8eb2-c15074e05aaf" valueTypeId="cf60f962-5baf-4a75-b54e-2d6d1db30072"/>
+    <managerType typeId="218fb6ab-cedc-4ddf-9dcc-05de4a71d5d8" valueTypeId="ea03ee8e-c91f-4c52-af56-6013ebf376fb"/>
+  </producedTypes>
+  <name>УБХСейсмическиеРегионыУровнии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сейсмические регионы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХСейсмическиеРегионыУровнии.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="933d2b34-d9c6-4e3b-999d-edce4e07c9c2">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68e23614-db75-4581-aced-78204809ef75">
+    <name>Первый</name>
+    <synonym>
+      <key>ru</key>
+      <value>I</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c159f122-d95f-4d28-bcdf-8ddc3b79e813">
+    <name>Второй</name>
+    <synonym>
+      <key>ru</key>
+      <value>II</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a07f236-1dd1-487a-ad20-5feb275c233f">
+    <name>Третий</name>
+    <synonym>
+      <key>ru</key>
+      <value>III</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="f1308ffd-e465-4115-a0d3-b35c2c9d8462">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

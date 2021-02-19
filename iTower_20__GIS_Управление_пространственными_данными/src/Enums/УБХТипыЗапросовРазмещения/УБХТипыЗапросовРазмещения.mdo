@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c30af2d5-a520-421c-a941-febc44b30968">
+  <producedTypes>
+    <refType typeId="58f4e3d4-ab7d-4bf5-a3a2-42c902fb77d4" valueTypeId="69eb2e5a-66df-484b-8c1a-ee4920a7ed38"/>
+    <listType typeId="42a6f28d-b580-4326-a230-eb96bb1de92f" valueTypeId="6fb36c70-5aa0-4913-bca9-635daf518752"/>
+    <managerType typeId="e751222f-87ec-42a9-b743-560a6cf18ca9" valueTypeId="5931b0bf-2b2b-4ea7-8903-6e12ab95da12"/>
+  </producedTypes>
+  <name>УБХТипыЗапросовРазмещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы запросов размещения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыЗапросовРазмещения.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="c381f8e7-ba99-4985-befe-2ba7361fbc29">
+    <name>НовоеРазмещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое размещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e3b49d3-de00-46f7-bcc5-bec111b68dd5">
+    <name>Демонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демонтаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aee0a6bd-384d-4a3e-a747-56f4ff668b29">
+    <name>Модернизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модернизация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5d11a5d-acaa-4948-bc51-12c58c15d108">
+    <name>СовместноеИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совместное использование</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="173e2762-c340-4210-ad7c-16972e918898">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

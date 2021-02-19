@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aa569c1-82a4-4e38-b87a-6f55ba2ef7d5">
+  <producedTypes>
+    <objectType typeId="b6aa793b-5c1c-4640-aa9f-e35ed5425a47" valueTypeId="48d0e80a-3c62-4b9c-954f-d92b4c81bb89"/>
+    <refType typeId="c76faacc-883e-4217-99eb-0335f2058d7f" valueTypeId="1e15a9d1-1ba4-493c-9b2d-9749e0410ef4"/>
+    <selectionType typeId="38778d83-3f32-45ef-a5d8-c8310a1eed53" valueTypeId="3ec30fb2-1d64-46e5-b5a2-5985f21bb962"/>
+    <listType typeId="fa55f02a-154d-4636-bb86-45e6b8e44ae8" valueTypeId="53454264-25b8-46ed-b7c9-7a424b829aed"/>
+    <managerType typeId="e60793fc-3445-4cc3-83dd-d4640688cce6" valueTypeId="9e9fdb90-51c1-40c3-8589-f893603095fb"/>
+  </producedTypes>
+  <name>ГруппыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыКонтрагентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыКонтрагентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа контрагента</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыКонтрагентов.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="2157e9de-1b16-4376-88f2-a7779f6e94c9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

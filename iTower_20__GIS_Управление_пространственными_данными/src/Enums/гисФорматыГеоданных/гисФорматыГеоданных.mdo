@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eb363ae-1e95-486b-945a-81ce470ba8b3">
+  <producedTypes>
+    <refType typeId="88b3af50-bb17-40d1-bc4e-57f641c0ed80" valueTypeId="0e200c69-1892-454f-96c2-12f38c8733b7"/>
+    <listType typeId="0cf41ad8-45d7-4cc1-93e3-db50e1beb5ac" valueTypeId="90d0a4c9-384d-4721-b14c-2f7928ec27c7"/>
+    <managerType typeId="3dca5ae3-0f2c-4bb2-9806-db05ae9ff12b" valueTypeId="b3df24e4-6960-49ca-a8bb-bad1b1b41e06"/>
+  </producedTypes>
+  <name>гисФорматыГеоданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы геоданных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69cad7f8-a7c5-422d-8d44-c1def6f07b4a">
+    <name>KML</name>
+    <synonym>
+      <key>ru</key>
+      <value>KML</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="211bddd1-ff84-4689-80c1-d22b93280980">
+  <name>УБХФорматА1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат а1</value>
+  </synonym>
+</mdclass:CommonPicture>

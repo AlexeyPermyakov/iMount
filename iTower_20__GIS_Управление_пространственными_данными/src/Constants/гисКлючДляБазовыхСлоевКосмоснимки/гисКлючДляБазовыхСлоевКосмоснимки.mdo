@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2badb09f-e897-46da-b37a-f0512d6bf37e">
+  <producedTypes>
+    <managerType typeId="72ce09b6-21df-458c-b74f-2d270420d8eb" valueTypeId="969d2a2f-a06e-410c-8823-4f2ad39972be"/>
+    <valueManagerType typeId="6829fb8f-27c2-4f99-80e4-78f91201c076" valueTypeId="e655dcd6-1546-495d-91f2-a7f52b819d8a"/>
+    <valueKeyType typeId="5826f3b7-0d75-51eb-9533-90e2927f8bbb" valueTypeId="1c3660d9-625e-50c9-a262-5348625380f6"/>
+  </producedTypes>
+  <name>гисКлючДляБазовыхСлоевКосмоснимки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ для базовых слоев &quot;Космоснимки&quot;</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

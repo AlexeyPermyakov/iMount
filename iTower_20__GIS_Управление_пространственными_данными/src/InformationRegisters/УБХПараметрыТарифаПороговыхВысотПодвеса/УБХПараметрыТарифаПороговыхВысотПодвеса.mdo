@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90864c98-c60f-4ed0-b2c8-ef4a278e7f6e">
+  <producedTypes>
+    <selectionType typeId="705b3c2a-6269-4d34-bd97-aaabe2211b97" valueTypeId="6a0c7965-1675-4ffc-834f-7f2087ec9c3b"/>
+    <listType typeId="d3ff51b2-0327-4936-9209-b07c02939cde" valueTypeId="b3da6079-e8d9-43d9-96c4-c9ea7957f83e"/>
+    <managerType typeId="6476208e-eac5-4466-9d14-06ac3efdc040" valueTypeId="3f704293-0855-44ed-8145-c113993894ac"/>
+    <recordSetType typeId="1588cd59-96b6-40f9-98d5-2b68cae5b1e1" valueTypeId="45bcfa7b-4076-42bf-ac89-35e46512f8f8"/>
+    <recordKeyType typeId="fa25dbe7-0c9b-4720-abc0-459a8bf17afc" valueTypeId="3592bfd0-4acd-435e-be14-bad46ff554a2"/>
+    <recordType typeId="2b039d84-0940-48b5-bcf9-1d2b76306c2b" valueTypeId="b3af5190-ff01-4da7-84ae-a5b65c32e678"/>
+    <recordManagerType typeId="c25b63b7-04f4-4094-b65e-d8282c7d3241" valueTypeId="87a5f417-682a-4e53-aded-8123199c18f4"/>
+  </producedTypes>
+  <name>УБХПараметрыТарифаПороговыхВысотПодвеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры тарифа размещения пороговых высот подвеса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ad7e2511-03cb-44b8-8810-54cb89763710">
+    <name>СуммаСтандартноеРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость стандартного объема размещения для высот</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df5c8e21-8d10-4f3f-97f1-fc6f3f85bbfd">
+    <name>СуммаРасширенноеРазмещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость единицы расширенного объема размещения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f0d79958-785d-4a11-bbf3-34c161f52827">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХТарифыРазмещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c84995d6-9e4c-4a6e-a86c-5fe86de4421d">
+    <name>ТипКонструкцииАМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип АМС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБХТипыКонструкцийАМС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="609af676-6298-49b8-95c5-2dfcf09d1c9e">
+    <name>ВысотаПодвесаНижнийПорог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота подвеса нижний порог (не включительно), м</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБХВысота</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a22931f-7aec-4a97-81d9-76330b25aae2">
+    <name>ВысотаПодвесаВерхнийПорог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота подвеса верхний порог (включительно), м</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБХВысота</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

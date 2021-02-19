@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cd47ea1-01d0-4d38-a394-9230cf0c11bf">
+  <producedTypes>
+    <selectionType typeId="7558aa9f-27c8-4245-b93c-95b58d39ba79" valueTypeId="b79471a1-e08e-4fb4-8603-a79f5bd37cd0"/>
+    <listType typeId="ed887236-9ec0-486a-accf-e3922af455bd" valueTypeId="c8db9f7f-dee9-42b7-ad4b-e0182133efaf"/>
+    <managerType typeId="aebce882-5bfb-4560-b204-e40843abf776" valueTypeId="70d82d1a-8999-4844-973d-b9de22a07aaa"/>
+    <recordSetType typeId="04de9f3f-ce68-4f96-b5ed-266d22a34a4e" valueTypeId="2f95a644-0b73-46d3-84ab-598cbceb7a80"/>
+    <recordKeyType typeId="bc7d26a5-5020-4941-9023-f78592ffe5e7" valueTypeId="96171d70-1c6f-414e-8e0b-23145fa047ce"/>
+    <recordType typeId="cfa8d7df-aaa1-4453-b6c2-6780034d9789" valueTypeId="71ac1d02-9640-4ffe-b064-06cb0e3bd752"/>
+    <recordManagerType typeId="a42d6b14-ecfb-4ac0-8d87-7476af0f73af" valueTypeId="f3bd5db5-1037-460c-940b-f73a8aa49fc2"/>
+  </producedTypes>
+  <name>УБХКоэффициентыКлиентскихГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты клиентских групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="82b1fecd-44df-4b38-ba01-0fd228f74f55">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e82099ca-2443-401d-b8c9-ba476700f590">
+    <name>КлиентскаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентская группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХКлиентскиеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd65769b-dedf-415b-9c8a-fc76f0d2f408">
+    <name>КатегорияАМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория АМС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБХКатегорииАМС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

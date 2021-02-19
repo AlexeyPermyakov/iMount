@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55a50e07-706e-4984-88c0-e035d49c3308">
+  <producedTypes>
+    <refType typeId="8490bb1f-5374-44ed-9fae-9ea33356064a" valueTypeId="bdb3dcf3-ad73-431e-8765-b2cc7c65f2e8"/>
+    <listType typeId="314dbba2-bf9c-4e80-9422-c3c5de46db1b" valueTypeId="37de3fec-4106-4f4c-bb37-e93165c1882b"/>
+    <managerType typeId="9f4db877-8615-4c07-ac3b-5791279e4b69" valueTypeId="c34d68a0-401a-423b-b107-8fe8b9ab9172"/>
+  </producedTypes>
+  <name>УБХОбъектыЗУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты ЗУ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХОбъектыЗУ.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="42253d0e-746e-41f2-b0ee-906bc9d93687">
+    <name>КТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КТП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eb5acc6-dde8-4498-bd03-28ba88f70d30">
+    <name>АМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АМС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e72f330a-59c0-4211-a56f-5bdd1cd1c7e1">
+    <name>АМСиВЛЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АМС + ВЛЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0191c736-d63e-46fb-b09c-075b6a933fd4">
+    <name>ДГУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДГУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18248718-b54f-4977-a171-b02758e5cde2">
+    <name>ВЛЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВЛЭС</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="bf1ee171-2d6e-449e-b94a-579e668869e1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

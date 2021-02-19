@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfc22648-9878-4b3d-bc85-197d6d8981f9">
+  <name>лм_КарточкаРеквизита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточка реквизита</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

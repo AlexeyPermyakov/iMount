@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe13e755-28ff-4292-a12f-6c3ed5d57b38">
+  <name>лм_ИспользоватьСписокТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать список точек</value>
+  </synonym>
+  <location>Constant.лм_ИспользоватьСписокТочек</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

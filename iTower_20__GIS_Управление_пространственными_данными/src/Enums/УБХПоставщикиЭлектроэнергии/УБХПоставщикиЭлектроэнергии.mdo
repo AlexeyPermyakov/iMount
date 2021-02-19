@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="650fac06-7853-46dd-bb88-91ac277294c5">
+  <producedTypes>
+    <refType typeId="426316af-50ed-49c8-9e0b-795d98d64a0f" valueTypeId="2205ae21-3f64-4df9-b544-d6ab5b7e05b7"/>
+    <listType typeId="16ebdf38-0039-467d-9fbb-222aa33de9be" valueTypeId="ea4aa48a-15b4-406f-8cd8-567e1f86278e"/>
+    <managerType typeId="6d34aa9f-348b-4e32-b235-42dcb54a06a8" valueTypeId="c2024833-620c-4511-85b5-dccc24f04422"/>
+  </producedTypes>
+  <name>УБХПоставщикиЭлектроэнергии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики электроэнергии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3957b705-52e7-4ae4-a48b-ccb770ec12fe">
+    <name>СетеваяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевая компания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3444f67-51d5-429d-8a71-a8b6a07d7947">
+    <name>Мегафон</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПАО Мегафон</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

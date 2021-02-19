@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68c1c2cb-8403-4d6d-bdd2-30259b31fe28">
+  <producedTypes>
+    <refType typeId="1b2abc33-790c-415e-a478-0bd7a490d0bb" valueTypeId="caf92f81-013c-4216-9d08-5292e98609e3"/>
+    <listType typeId="119703bb-25b3-4b32-b9d3-75974f9b144a" valueTypeId="8874ffdb-4e74-40b2-8a45-adceec6d0ff6"/>
+    <managerType typeId="5dbd7c80-3850-4a24-8d6b-0951f45cc8bd" valueTypeId="a6c921f5-dd83-4bdc-821e-22999733ce8d"/>
+  </producedTypes>
+  <name>УБХТипыВыбытияАМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выбытия АМС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыВыбытияАМС.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="5efa5a08-4a73-41bb-8662-cf2977dd6f36">
+    <name>НеВыбрано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выбрано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff830420-f37e-4107-abba-be0d9d4f3422">
+    <name>ЧрезвычайноеПроисшествие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чрезвычайное происшествие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47e263b3-e81c-42cb-8a17-b5d6d4c7a13e">
+    <name>КупляПродажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купля-продажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30cb261f-f917-4ae4-bc63-4a7e270961dc">
+    <name>Демонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демонтаж</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="b5289d55-aae8-438e-b4c8-9cc9ec8ae54a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

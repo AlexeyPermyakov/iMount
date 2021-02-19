@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84d45854-8379-47e2-87d0-1e3463a16c65">
+  <producedTypes>
+    <refType typeId="dab847ba-38a1-4d34-ade3-9ef6821b43c4" valueTypeId="90b4d92c-aceb-4a28-b7ea-1cdf10346fa9"/>
+    <listType typeId="c9e1577c-6168-4f9e-a987-daf109f45efd" valueTypeId="e9cd8c54-e395-4dac-9e45-1bde199d34b5"/>
+    <managerType typeId="0b582ae3-89a2-44e5-8bd5-fd16a73c28f3" valueTypeId="f5cb0de7-3bab-4ee5-a466-da32501e5f7e"/>
+  </producedTypes>
+  <name>УБХГруппыОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.УБХГруппыОрганизаций.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Enum.УБХГруппыОрганизаций.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="9ee23053-cda4-47d7-8d2d-d29967d32615">
+    <name>Мегафон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мегафон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8827d3d3-6c6e-4ff7-a925-a929b31e2684">
+    <name>ПБК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПБК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34f77aec-abdd-4255-b326-737b5b5c1053">
+    <name>ЗИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗИК</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="dc07eac4-d93e-4f37-9061-008d0fecf244">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="777cc340-7bf0-4c01-bc9a-74f479ee301e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

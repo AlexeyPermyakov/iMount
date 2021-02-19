@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3e56b69-5ae1-4641-b388-672e1085cf15">
+  <name>iTower</name>
+  <synonym>
+    <key>ru</key>
+    <value>iTower</value>
+  </synonym>
+</mdclass:Style>

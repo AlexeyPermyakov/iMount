@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd590de6-4b81-4906-afb4-fc0ff6ec140f">
+  <name>гисПодсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гис. Подсистема</value>
+  </synonym>
+</mdclass:CommonPicture>

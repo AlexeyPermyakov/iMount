@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60638bf2-0209-4732-9649-4ae342b8a277">
+  <producedTypes>
+    <selectionType typeId="cb33cf12-b4c4-4e55-a148-5c198102bdf6" valueTypeId="bfac7cb4-397d-4bd7-b8c1-c6fefa951be9"/>
+    <listType typeId="22bc40bb-a2bd-45e8-9d8e-b05de014b022" valueTypeId="e9e77958-24ab-413c-b26b-b6a8d3b5af24"/>
+    <managerType typeId="215b3bb1-496c-4af7-a761-6c0cfaa77089" valueTypeId="9021d67d-b36e-4603-85b7-7951f246f875"/>
+    <recordSetType typeId="982663a8-155b-4f6e-9676-e4fb46e8bccc" valueTypeId="34833610-ea2d-4a07-bcd9-d2da928dbfbd"/>
+    <recordKeyType typeId="540ec90c-cd0b-448f-9e12-f675af2cf25f" valueTypeId="1ed0e967-478c-4a75-aec5-3b696676493f"/>
+    <recordType typeId="30c895fc-541e-488a-9253-b5d1da726dc3" valueTypeId="4ae98ef5-6fae-4e90-989f-bd10e92e1715"/>
+    <recordManagerType typeId="d83cf4c8-2491-4213-b0f5-795334b9494d" valueTypeId="8a5d0a19-ef0e-4058-b482-49f6bb38ab68"/>
+  </producedTypes>
+  <name>лм_СоставЧатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав чатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e73f80e9-c4c8-4724-a37b-b4473ab88fd9">
+    <name>КонтекстЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст чата</value>
+    </synonym>
+    <type>
+      <types>DefinedType.лм_КонтекстЧата</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8d5ea1c5-305b-4a2c-abb4-88e7359a71f0">
+    <name>ИдентификаторЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор чата</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0a373f4e-9625-4a6c-a347-1b83b0e75eea">
+    <name>Пользователь</name>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baddc9f0-0ba5-4c09-8c56-89688adb8413">
+  <name>гисТематикаПостроена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тематика построена</value>
+  </synonym>
+</mdclass:CommonPicture>

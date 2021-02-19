@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="711004be-0ed3-47c2-91ae-64b92fd9f088">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.РолиКонтактныхЛиц</content>
+  <content>Catalog.Периоды</content>
+  <content>Catalog.ГруппыКонтрагентов</content>
+  <content>Catalog.УБХТипыТрансформаторов</content>
+  <content>CommonModule.УБХОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.УБХОбщегоНазначения</content>
+  <content>CommonModule.УБХПроведениеСервер</content>
+  <content>CommonModule.УБХУправлениеПечатьюКлиент</content>
+  <content>CommonModule.УБХОбщегоНазначенияВызовСервера</content>
+  <content>CommonModule.УБХУправлениеФормой</content>
+  <content>InformationRegister.ФИОФизическихЛиц</content>
+  <content>Catalog.УБХМаркиАппаратов</content>
+  <content>CommonForm.УБХФормаЭлементаШаблон</content>
+  <content>CommonModule.УБХОбщегоНазначенияКлиентСервер</content>
+  <content>CommonPicture.УБХКоординатыКарта</content>
+  <content>Enum.УБХТипыОС</content>
+  <content>CommonPicture.УБХВерсииЗапроса</content>
+  <parentSubsystem>Subsystem.УБХНСИ</parentSubsystem>
+</mdclass:Subsystem>

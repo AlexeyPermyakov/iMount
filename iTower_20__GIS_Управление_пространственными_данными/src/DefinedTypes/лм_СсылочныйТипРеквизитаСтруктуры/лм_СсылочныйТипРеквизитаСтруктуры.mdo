@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13e5d15e-1038-4bd7-a0e6-54d9bb2a3d43">
+  <producedTypes>
+    <containerType typeId="d365f509-b15a-473d-aea6-432c3e8eb9fb" valueTypeId="4535053f-ab8d-407c-a06d-a3fda7eb78bf"/>
+  </producedTypes>
+  <name>лм_СсылочныйТипРеквизитаСтруктуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылочный тип реквизита структуры</value>
+  </synonym>
+  <type>
+    <types>EnumRef.УБХТипыКонструкцийАМС</types>
+    <types>EnumRef.УБХСейсмическиеРегионыУровнии</types>
+    <types>EnumRef.УБХГруппыРазмещения</types>
+    <types>EnumRef.УБХТипыВыбытияАМС</types>
+    <types>EnumRef.УБХТипыРазмещенийВКонтейнере</types>
+    <types>EnumRef.УБХВетровыеРайоныУровни</types>
+    <types>EnumRef.УБХКапитальностиАМС</types>
+    <types>EnumRef.УБХМатериалыАМС</types>
+    <types>CatalogRef.Валюты</types>
+    <types>EnumRef.УБХТипыМестности</types>
+    <types>CatalogRef.УБХТипыОборудования</types>
+    <types>EnumRef.УБХТипыЗапросовРазмещения</types>
+    <types>EnumRef.УБХГололедныеРайоныУровни</types>
+    <types>CatalogRef.УБХПроектыСтроительства</types>
+    <types>CatalogRef.УБХРегионы</types>
+    <types>CatalogRef.УБХРаботы</types>
+    <types>CatalogRef.УБХКТП</types>
+    <types>CatalogRef.УБХПрограммы</types>
+    <types>EnumRef.УБХСтатусыСпециальныхТарифов</types>
+    <types>CatalogRef.УБХОборудование</types>
+    <types>EnumRef.УБХТипыВетровойНагрузки</types>
+    <types>CatalogRef.УБХОсновныеСредства</types>
+    <types>CatalogRef.УБХПлощадки</types>
+    <types>EnumRef.УБХТипыУстановкиОпорыАМС</types>
+    <types>CatalogRef.УБХТарифыРазмещения</types>
+    <types>EnumRef.УБХТипыПоступленийАМС</types>
+    <types>EnumRef.УБХКатегорииАМС</types>
+    <types>EnumRef.УБХСнеговыеРайоныУровни</types>
+  </type>
+</mdclass:DefinedType>

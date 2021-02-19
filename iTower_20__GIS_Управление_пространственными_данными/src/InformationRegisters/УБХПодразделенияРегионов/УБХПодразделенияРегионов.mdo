@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef1764e9-e9c9-43f4-81b5-1fe7eae79378">
+  <producedTypes>
+    <selectionType typeId="c40172bd-7b03-4806-92de-8b99c1376eb1" valueTypeId="5984d210-cf09-4ada-aa41-fa6e4f234d26"/>
+    <listType typeId="758624b7-e32e-4ff0-b26c-96f556f9fb7a" valueTypeId="bd65f74a-0e03-468c-8583-5ba145ed2495"/>
+    <managerType typeId="ae33eb4a-8905-41ee-80ce-ef9a382973d2" valueTypeId="bd93924b-1582-49f4-80a9-acd0674583de"/>
+    <recordSetType typeId="1722a634-e1a8-44a6-9de9-716aa6259590" valueTypeId="ea295ce1-d193-44a6-9f6c-c67c02b2692b"/>
+    <recordKeyType typeId="c972883a-f69e-4ba4-bc2f-76f66c80657f" valueTypeId="6d88fe21-92d9-4bfa-bd43-3c57b41beb72"/>
+    <recordType typeId="f5bfb755-655d-4f7d-8285-2b74e1704a8d" valueTypeId="d6c05af5-5a8c-4e6a-83ff-bcf7ba456304"/>
+    <recordManagerType typeId="1cf9e3a3-4f14-443b-9988-a00f6bbc54ed" valueTypeId="750293f8-d35e-481e-99a2-9e8801b55bec"/>
+  </producedTypes>
+  <name>УБХПодразделенияРегионов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения регионов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УБХПодразделенияРегионов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УБХПодразделенияРегионов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="00502039-d70f-429f-9ebe-a6d31a3f4830">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъект РФ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7d6e3aac-027b-4938-9875-7b52e4eb6bb5">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХПодразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f4e089dd-f403-45f8-9f5e-c77c611ebeed">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8880fb09-4f9b-4c4f-8482-f935b6b5a252">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="25487eb6-5193-4604-b689-a98f540bfe09">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bef8db9-cbb6-4939-8b00-69388a45d10d">
+  <producedTypes>
+    <refType typeId="5caddaa7-c92c-4851-8ffc-b34c0e05f176" valueTypeId="f710c87f-fda3-414e-90f5-f95f2ea736e7"/>
+    <listType typeId="ebe38040-ca52-4358-b4e2-c3741ac671b7" valueTypeId="e4ba5b84-baa0-4917-a7e4-8e1cafcd6dac"/>
+    <managerType typeId="b558e420-0033-4a26-8a86-c4121a354fe5" valueTypeId="e3088b15-5be6-4235-8a80-39a54266a330"/>
+  </producedTypes>
+  <name>гисТипыКадастровыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы кадастровых документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="414a9e1d-b533-472d-8774-53a41d31b5ff">
+    <name>КадастроваяВыписка6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровая выписка (версия 06)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18d524c0-d738-43a8-9290-337b873dac68">
+    <name>КадастроваяВыписка7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровая выписка (версия 07)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d99ca4eb-9743-4479-bf80-05f492b28039">
+    <name>КадастровыйПаспорт5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый паспорт (версия 05)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1646cb8-70d1-413a-92f2-9ef1d4d57ebb">
+    <name>КадастровыйПаспорт6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый паспорт (версия 06)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9d6e045-ee30-4784-9364-3c1b7dc241e4">
+    <name>КадастровыйПлан9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый план (версия 09)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad680717-8feb-41ac-b573-29fc8214516b">
+    <name>КадастровыйПлан10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый план (версия 10)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

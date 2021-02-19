@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e148136a-a4b1-4011-9b6c-356c68988a68">
+  <producedTypes>
+    <selectionType typeId="6254a144-36b6-4130-a3c3-23f6ef3b0897" valueTypeId="981a5735-735e-4776-b536-eba02a30dbc8"/>
+    <listType typeId="52f3a08b-0743-41bc-9051-9cfd50136bc8" valueTypeId="de479803-90ec-46b5-9ff1-e452d6c6b992"/>
+    <managerType typeId="17b48054-2957-436f-830b-0c1b4066eeeb" valueTypeId="7c7fc7e4-35b2-44cb-81c6-487d222d77d4"/>
+    <recordSetType typeId="f69bf478-2ff7-4c16-9193-b4b6a00c50e0" valueTypeId="3b5d8c84-b9de-4a13-95a4-3cf9a63b50b9"/>
+    <recordKeyType typeId="7b79bdd6-9bea-46c7-ada9-d55428e4d3d1" valueTypeId="54956d5d-f02d-4a2d-93b2-c84442c458ae"/>
+    <recordType typeId="71905515-7d28-48fe-ba4e-35976aaf6f38" valueTypeId="eaca17af-6f40-43a8-9bb0-21d0d27a3b4e"/>
+    <recordManagerType typeId="d1f1421a-3130-40f5-b867-052445baafe9" valueTypeId="868605f9-e3ed-4baf-8498-f8d86366ecdf"/>
+  </producedTypes>
+  <name>УБХОбъектыПлощадок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты площадок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="98072c30-223b-45e5-b3c9-3ee3e2157764">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХПлощадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e4166c82-7834-4dc3-8ec2-bd0af57ce662">
+    <name>ОбъектПлощадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект площадки</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБХОбъектыПлощадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

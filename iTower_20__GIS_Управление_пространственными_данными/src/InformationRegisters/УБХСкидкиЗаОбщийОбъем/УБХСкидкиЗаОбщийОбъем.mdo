@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6eeed52-5bb5-4d8b-85c6-18f3c8ec12f5">
+  <producedTypes>
+    <selectionType typeId="f3a42b9e-eea9-4188-9702-5c1f5c08eb97" valueTypeId="2e950139-b8f2-432c-a194-bd4bc07488d3"/>
+    <listType typeId="6b59721d-d2b2-4c3f-a886-3a9fcd488c47" valueTypeId="ee39b171-7102-407d-b1d4-3cba124e6aa5"/>
+    <managerType typeId="188c9dca-5a11-40d0-9356-3d7287ddc77e" valueTypeId="968f2a74-9bec-49ef-9a3b-b6649c3d9398"/>
+    <recordSetType typeId="5f53206f-00f1-473d-99be-68243ee47a7c" valueTypeId="7dff8505-e422-45a5-801f-76311ce2504c"/>
+    <recordKeyType typeId="12cf9bd3-bcc7-4fa8-bb20-4c133b8a55e7" valueTypeId="2f027c52-50ef-4504-92fe-66d3820833d4"/>
+    <recordType typeId="2ec375cb-826c-48b1-8cfc-c4545bb887fe" valueTypeId="9a114e3e-a966-4ac1-ac67-0e1db3b37903"/>
+    <recordManagerType typeId="688daa9f-079a-4bdd-a1bb-dc7c106a904f" valueTypeId="96c8529a-c81e-4355-9447-8f6d1e483ddd"/>
+  </producedTypes>
+  <name>УБХСкидкиЗаОбщийОбъем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки за общий объем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d6ba371c-ae5a-4fd2-bf97-62656939a087">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка, %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1e7b5ef6-5f67-4077-aaf3-c0e6366888a6">
+    <name>КлиентскаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентская группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХКлиентскиеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9b53cb1c-39d9-451f-969b-399706466c85">
+    <name>Порог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порог</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3ff1730-5d4c-478e-8dc7-1aa02bfc007a">
+  <producedTypes>
+    <objectType typeId="6dc3ec5a-2a30-41fa-b54c-f0156ff20a86" valueTypeId="9b57d49a-585e-4dca-b323-39e94a64a8c4"/>
+    <refType typeId="e4ebf84a-75f5-4991-8c97-893110afbe44" valueTypeId="b3556510-de11-4a41-a436-9b087a91b8b3"/>
+    <selectionType typeId="dc46d6bf-1742-455f-b847-f42c9523b7c4" valueTypeId="6b9c71cc-9ef0-4289-b44e-3517535eb8ba"/>
+    <listType typeId="3e73c481-49db-48cf-a561-7aebec2ed71a" valueTypeId="236863e8-e95f-4eea-a234-54f0a5c44c52"/>
+    <managerType typeId="46399a50-d850-48ab-ac01-6093d390e86f" valueTypeId="74ac15fa-218d-4b5f-9ef4-345c31636b88"/>
+  </producedTypes>
+  <name>гисКадастровыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадастровые документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гисКадастровыеДокументы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кадастровый документ</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гисКадастровыеДокументы.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гисКадастровыеДокументы.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1860b734-d874-455a-8cbe-0b84b13a5653">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гисТипыКадастровыхДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип кадастрового документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73734c74-3795-4641-b74a-5d07dd17fdc3">
+    <name>СистемыКоординатФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системы координат файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Системы координат загруженного файла xml</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73555e43-644e-4f7e-9bf7-a63526f04c68">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к кадастровому документу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1d1ecf5-02f2-4e66-81b3-383f98df7a21">
+    <name>Слой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слой</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисСлоиКарты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Слой кадастровых земельных участков</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3eee29bd-a9ee-4a4d-84e7-4e53084e30a3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae42c4f8-d400-4f66-8ef2-79f9362c1a29">
+    <name>ФормаСоответствияСистемКоординат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие систем координат</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b35ac4d9-942f-48f1-ba45-40ce85c8797c">
+    <name>ФормаПараметровДляЗапросаИзРосреестра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение данных из Росреестра</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="28d42943-faba-47be-8db0-c4a8d88d00e6">
+    <name>ФормаЗагрузкиКадастровыхНомеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки кадастровых номеров</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="32f12ff8-427b-4666-ac02-d4c955ccaf11">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="f8553da4-f825-46c7-b80d-e8f1b3934557">
+    <producedTypes>
+      <objectType typeId="f9819157-42cd-4e11-ba27-fbff93c199d7" valueTypeId="48700225-2ae7-470e-9fb8-d8be14acf195"/>
+      <rowType typeId="cfb92f5e-78b9-4251-b362-4f6eacfb8cec" valueTypeId="27a2f884-4336-45d4-87ff-964e234bc406"/>
+    </producedTypes>
+    <name>КадастровыеЗемельныеУчастки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровые земельные участки</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Кадастровые земельные участки кадастрового документа</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="514b010b-35a5-46e7-af8b-6399a05d2785">
+      <name>ЗемельныйУчасток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Земельный участок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гисКадастровыеЗемельныеУчастки</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Кадастровый земельный участок</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="28a1cc4b-fa3e-4344-84f1-bc3ed9eb66f7">
+      <name>ДанныеXml</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные xml</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Реквизит-контейнер для хранения информации из xml-документа по загруженному участку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cbafbb8f-9813-458a-be01-35ebb895d101">
+      <name>КадастровыйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кадастровый номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Кадастровый номер кадастрового земельного участка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc9486c4-0c7f-400b-b148-1b60333bc88c">
+      <name>КатегорияЗемель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категория земель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гисКатегорииЗемель</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Категория земель кадастрового земельного участка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="082871db-024e-4373-aa5f-61daa00058a6">
+      <name>ВидИспользования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид использования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гисВидыРазрешенногоИспользования</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид использования кадастрового земельного участка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f99298ae-2293-4968-ae15-ae76c3600979">
+      <name>СистемаКоординат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Система координат</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Код системы координат, указанный в файле для кадастрового земельного участка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a728b132-9842-4afa-8001-c47760fb0f23">
+      <name>ПараметрыПереводаВWgs84</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры перевода в WGS-84</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гисПараметрыПереводаВWgs84</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Параметры перевода в систему координат WGS-84, которые использовать для кадастрового земельного участка</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5246220b-f850-411b-806e-b2e1123470bd">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Комментарий к кадастровому земельному участку</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

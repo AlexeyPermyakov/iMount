@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="491228f4-1557-4af9-b7f5-94edf6ce3879">
+  <producedTypes>
+    <containerType typeId="451def6b-e926-4ba6-a93e-542af4ce3ade" valueTypeId="76e503ac-b9f3-49e7-ae78-131b59d66483"/>
+  </producedTypes>
+  <name>лм_КонтекстЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контекст чата</value>
+  </synonym>
+  <type>
+    <types>BusinessProcessRef.лм_БизнесПроцесс</types>
+  </type>
+</mdclass:DefinedType>

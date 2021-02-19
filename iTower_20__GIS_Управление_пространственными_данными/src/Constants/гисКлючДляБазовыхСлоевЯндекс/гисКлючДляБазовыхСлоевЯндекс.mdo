@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8325dae4-405b-48ed-b3d4-c4ea105c16fe">
+  <producedTypes>
+    <managerType typeId="613cf640-b460-4ee3-b0de-df5f38b0aff8" valueTypeId="aece144b-8930-45cc-af7c-9014354a5119"/>
+    <valueManagerType typeId="cb920f8f-0340-4aa4-a84e-9a1217f440f1" valueTypeId="5cfef52d-44bc-4026-9c99-c1d48bd1161d"/>
+    <valueKeyType typeId="1ac6ac2e-b782-5722-a164-f4d74ef29120" valueTypeId="2e92cb90-4dd4-5ee4-ad84-1aabf4612229"/>
+  </producedTypes>
+  <name>гисКлючДляБазовыхСлоевЯндекс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подтверждаю, что у меня есть право использовать карты Яндекс, и несу ответственность за выполнение лицензионного соглашения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

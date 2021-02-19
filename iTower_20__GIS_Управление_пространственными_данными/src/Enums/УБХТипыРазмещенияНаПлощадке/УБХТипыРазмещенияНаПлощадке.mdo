@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8049ae3c-7d43-404f-86ea-2278e0711317">
+  <producedTypes>
+    <refType typeId="6620b4c3-5323-4df9-9022-cd2e15dded9d" valueTypeId="cff660e0-de92-4192-9442-cb2bc04bb818"/>
+    <listType typeId="62232d3e-902e-4224-b15c-541f32d14133" valueTypeId="9da43b25-d7e3-474e-a0c8-7df5f5455b29"/>
+    <managerType typeId="1d35d22e-466b-474d-a603-7938380cba9b" valueTypeId="e88f128e-6e82-4e51-980a-751130654773"/>
+  </producedTypes>
+  <name>УБХТипыРазмещенияНаПлощадке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы размещения на площадке</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыРазмещенияНаПлощадке.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="e57cbfb7-7b85-42b8-989b-d0da9a316850">
+    <name>Контейнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb75b200-3b94-4a7f-8aae-baa27cf0d6cc">
+    <name>Термошкаф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Термошкаф</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="73014666-5b89-4a05-b189-f25ccd61cd29">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

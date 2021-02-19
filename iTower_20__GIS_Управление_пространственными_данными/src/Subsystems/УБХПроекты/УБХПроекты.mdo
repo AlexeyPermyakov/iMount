@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a438ebe3-92c5-49e4-8675-6f3c822c5634">
+  <name>УБХПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УБХПроекты</picture>
+  </picture>
+  <content>Catalog.УБХПрограммы</content>
+  <content>Catalog.УБХПроектыСтроительства</content>
+  <content>Document.УБХЗаказНаСтроительство</content>
+  <content>Catalog.УБХРаботы</content>
+</mdclass:Subsystem>

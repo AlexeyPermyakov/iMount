@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cbf506e-05ab-4179-a898-64804ece721d">
+  <name>Эксплуатация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эксплуатация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.УБХГарантииЭксплуатации</content>
+  <parentSubsystem>Subsystem.УБХНСИ</parentSubsystem>
+</mdclass:Subsystem>

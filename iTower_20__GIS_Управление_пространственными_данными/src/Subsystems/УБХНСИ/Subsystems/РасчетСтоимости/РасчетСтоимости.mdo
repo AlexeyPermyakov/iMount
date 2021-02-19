@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c53f266-e491-4e24-bb1b-36978c797602">
+  <name>РасчетСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет стоимости размещения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.УБХКоэффициентыКлиентскихГрупп</content>
+  <content>Enum.УБХСтатусыКлиентскихГрупп</content>
+  <content>InformationRegister.УБХСкидкиЗаОбщийОбъем</content>
+  <content>Catalog.УБХТипыКабеля</content>
+  <content>InformationRegister.УБХРегиональныеКоэффициентыКлиентскихГрупп</content>
+  <content>InformationRegister.УБХКомпенсацииЗаЭлектроэнергию</content>
+  <content>InformationRegister.УБХПараметрыТарифаПороговыхВысотПодвеса</content>
+  <content>Catalog.УБХКлиентскиеГруппы</content>
+  <content>Catalog.УБХТарифыРазмещения</content>
+  <content>Enum.УБХВидыТарифовРазмещения</content>
+  <content>Enum.УБХСтатусыСпециальныхТарифов</content>
+  <content>InformationRegister.УБХСтандартныеТарифыКлиентскихГрупп</content>
+  <parentSubsystem>Subsystem.УБХНСИ</parentSubsystem>
+</mdclass:Subsystem>

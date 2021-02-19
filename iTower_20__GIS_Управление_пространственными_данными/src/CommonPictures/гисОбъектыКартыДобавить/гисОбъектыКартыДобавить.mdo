@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f825cd7-ae59-418d-941c-cd4f99a91b7c">
+  <name>гисОбъектыКартыДобавить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить объекты карты</value>
+  </synonym>
+</mdclass:CommonPicture>

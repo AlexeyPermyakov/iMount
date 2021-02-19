@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1187dd92-1f5d-47eb-b241-5444560e8647">
+  <producedTypes>
+    <refType typeId="e264aa75-c6e8-40e4-af90-f5b03635b505" valueTypeId="192ea359-5da7-4e60-bdea-7b854c98df32"/>
+    <listType typeId="215adf7b-84bb-4b69-ab44-a7351b9b89fa" valueTypeId="13819930-ed95-486c-9df1-2976e04f447e"/>
+    <managerType typeId="b67c8f44-50b1-429a-be74-ddfb27a1d26a" valueTypeId="d83e5f7c-193a-40f5-8de3-3e227b46d69b"/>
+  </producedTypes>
+  <name>гисТипыСлоев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы слоев</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed1e28ec-45fe-479b-af66-dc372c6800c4">
+    <name>ПоСправочникуОбъектыКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>По справочнику &quot;Объекты карты&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e59f82fd-b6ab-40e6-8ea5-11b192d1fad8">
+    <name>ПоСправочникуКадастровыеЗемельныеУчастки</name>
+    <synonym>
+      <key>ru</key>
+      <value>По справочнику &quot;Земельные участки&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="326cfb9e-5c02-42f6-af45-6df3ff1b3aeb">
+    <name>ИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из файла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffad9854-0a6f-435e-b227-1e82c35c5a87">
+    <name>Росреестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Росреестр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd33035b-0183-452e-9a78-a5076d4cde78">
+    <name>WMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Web Map Service (WMS)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

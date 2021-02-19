@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2afe3b0-2ec4-4a35-b4e8-20216c542524">
+  <producedTypes>
+    <objectType typeId="7bf42d82-03b4-47b3-b01b-17c1dc7f36d7" valueTypeId="e450a17d-d747-4158-9d8f-b754944f1195"/>
+    <refType typeId="6400b68f-c395-4e5a-8dc4-5ce0a4550b9b" valueTypeId="83b56381-2be2-40c9-9ceb-155876b49d2b"/>
+    <selectionType typeId="04b4d4ae-decd-4cf7-a0e7-f8e27e1db36f" valueTypeId="b0b43ab0-ac8b-4bda-b4cf-0720930a99c0"/>
+    <listType typeId="e3039a55-d66b-4fba-978f-956030e72ff0" valueTypeId="1cab9941-e318-4b0f-a1e7-769e29882849"/>
+    <managerType typeId="05063eee-f661-4860-88a8-2135342f4243" valueTypeId="6aff2957-d5e2-4b1e-a14c-381d57a1e735"/>
+  </producedTypes>
+  <name>УБХПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХПодразделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.УБХОрганизации</owners>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХПодразделения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБХПодразделения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБХПодразделения.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="7d8487ec-1043-454e-bdb4-917eccc65126">
+    <name>КодУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код учета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d6c76af-6496-44de-9b4b-99847926451c">
+    <name>ОбособенноеПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="71a34d58-28d9-41ea-8957-d872a7c89d0f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cfed31f9-df8d-4046-bc11-9ce110d9167d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b238a05-0cc9-49d2-b44f-f43c924222be">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

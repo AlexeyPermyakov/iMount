@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa2fff17-68be-404d-93a1-5acc03bbd061">
+  <producedTypes>
+    <refType typeId="07a76322-ee82-4bf0-827b-38be7f210cb8" valueTypeId="172d6e85-17a2-43f5-97a0-e2ec02ca1daf"/>
+    <listType typeId="ae0c0878-32c4-4297-9ea2-5a4f8ee8c1ca" valueTypeId="8e9f9047-8e23-40fe-99c5-54ad4996c792"/>
+    <managerType typeId="fa0521be-9ea8-432c-9b4c-078a40af2e7c" valueTypeId="e74d89b7-8e67-4e40-b365-91be5d8fb332"/>
+  </producedTypes>
+  <name>ЮрФизЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юр/Физлицо</value>
+  </synonym>
+  <comment>Определяет, является ли организация или контрагент юридическим лицом или нет.</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ЮрФизЛицо.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="89bc7516-8ed9-4ae4-be51-a1c49da6be27">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74032512-f80c-4e40-b54a-3b2ee113b6a4">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74b7ec4b-292c-4324-898d-fd016f1da6d2">
+    <name>ЮрЛицоНеРезидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лицо, за пределами РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="502d0133-2166-47e0-8b8d-124b5bbe899f">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04cf7ff6-be60-4aed-a26f-cdcc5bf42ab1">
+    <name>ГосУчреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос. учреждение/предприятие</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="ab6261a8-b1c2-4044-bc53-10b8c529b197">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d03c1a7f-3b54-4c4d-8813-0baf9ad4c245">
+  <producedTypes>
+    <objectType typeId="34512deb-895f-4808-a39e-9f9127e20611" valueTypeId="2673e88d-a0be-4fc6-9bf7-cd078fcda015"/>
+    <refType typeId="07495301-2535-4e7e-a740-14dd7be21151" valueTypeId="9cda05e7-98b8-4344-b7f5-13d696d4d0a9"/>
+    <selectionType typeId="631e89a3-3e47-4d3c-9968-d7419695a1af" valueTypeId="d001d647-76e3-4f67-9814-e13db3c9c11d"/>
+    <listType typeId="12304d23-6fe3-4681-8b71-75b219acfa83" valueTypeId="6bd02014-9f08-41a8-b07b-1aba35fb0b5e"/>
+    <managerType typeId="a97e9178-eab3-469e-afc1-068a38e48647" valueTypeId="843b035d-f2be-457c-b1ea-0320606eae0b"/>
+  </producedTypes>
+  <name>гисПоказатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гисПоказатели.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гисПоказатели.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа показателя</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.гисПоказатели.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование показателя</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код показателя</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Показатель</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.гисПоказатели.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.гисПоказатели.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="57828c51-aa97-45c4-a483-83c97167e5cc">
+    <name>ТипЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гисПоказателиТипы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип значения показателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f622dc22-200d-49b9-ae36-c964c70c3aec">
+    <name>СправочникИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Catalog</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя справочника значений показателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2552c40c-d237-4c90-89dc-1ac00af0a180">
+    <name>СправочникВладелецЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец значений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Values owner</value>
+    </synonym>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Владелец справочника значений показателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e3c70cb-7c5a-4762-9761-a76cec73f514">
+    <name>КоличествоЗнаков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дробных знаков</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number of fractional digits</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество дробных знаков значения показателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="527abf30-db97-4d6b-a660-520b0e58189c">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гисПоказателиПериодичность</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодичность показателя для тематики</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="72516b7d-a695-430c-8d31-ed9fc1749c5b">
+    <producedTypes>
+      <objectType typeId="d7422a1c-ca38-40fc-9297-9ec814b9f1f2" valueTypeId="9cea82b0-8ef0-4d23-896f-0f95a96c307d"/>
+      <rowType typeId="fbfc1516-4d60-4f32-ae13-68f1c4f3569c" valueTypeId="214179b8-37bb-40a1-9279-8332a6eed773"/>
+    </producedTypes>
+    <name>СлоиКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слои карты</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Слои карты, для которых есть раскраска</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9207ed63-73a2-4ba0-be6a-82c89972f298">
+      <name>СлойКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Слой карты</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гисСлоиКарты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Слой карты, для которого есть раскраска</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="85dec9f6-d557-4854-ba23-d303a4ad6554">
+      <name>КлючСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ключ строки, установленный для слоя</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9bc4e3b1-efcf-43ae-a7d5-ad18004f5006">
+      <name>ВсплывающееСообщение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Всплывающее сообщение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Шаблон всплывающего сообщения для тематики</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e20cc3d-0f47-480a-83ef-2e9933f20072">
+      <name>ШаблонРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон расчета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Шаблон для расчета, если показатель расчетный</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="68787240-2574-42de-9a3d-a3389c3f0370">
+      <name>Детализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Детализация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Детализация показателя для тематики</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0aa16a58-6e48-428b-9b97-06b3767b6785">
+    <producedTypes>
+      <objectType typeId="fb47e4e8-125d-4ed4-8d70-2b29a1148959" valueTypeId="e1393622-6113-4734-8c47-be69460ae64e"/>
+      <rowType typeId="de786eca-17d5-40c1-9fd0-d6ce8049751f" valueTypeId="722cc682-4206-47c8-9ccc-d1d0929fb31d"/>
+    </producedTypes>
+    <name>ЦветаПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвета показателей</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Правила раскраски для слоя по показателю</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="306cd02e-def1-4004-9cd8-8a873a8c9cbb">
+      <name>КлючСтрокиСлоиКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ строки слои карты</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ключ строки таблицы &quot;Слои карты&quot;</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="71840f4c-e705-4224-bec0-19cc7d480d7a">
+      <name>Цвет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цвет</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Цвет правила раскраски</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="80d1f810-1c28-4fba-a7e8-1a5893b7c2c5">
+      <name>ЗначениеОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение от</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение - нижний предел правила раскраски</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c7986a7-dd3e-499d-bce4-729e512bbb9f">
+      <name>ЗначениеДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение - верхний предел правила раскраски</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13463f4c-22be-4289-8127-cc07bf5cc73e">
+      <name>Подпись</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подпись</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Подпись для легенды</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4efe27bd-bcb4-4baf-bec9-34edb5c3884a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d103fe3e-71b5-42c8-951e-04423e6472ed">
+    <name>ФормаАвтозаполнениеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автозаполнение (настройки)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Autofilling (settings)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c364c6b5-2c8b-4ab8-9c71-1b8a5037ce9e">
+    <name>РедакторВсплывающегоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор всплывающего сообщения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="344984e8-f47b-47f9-8ef8-9e639d8591b7">
+    <name>ВыборЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор значения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="afe22c29-2f09-4e8c-bcc6-43d50688ab71">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3851e14-bff4-4e9d-ab2d-8b0c580d889c">
+    <name>ШаблонРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон расчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ba46449c-87bf-46d5-9243-77b308031318">
+    <name>ФормаДетализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

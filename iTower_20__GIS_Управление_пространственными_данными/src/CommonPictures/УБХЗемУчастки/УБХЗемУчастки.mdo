@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f28b4671-1dd3-40e3-8935-36b94c7b0c54">
+  <name>УБХЗемУчастки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зем. участки</value>
+  </synonym>
+  <comment>Земельные участки</comment>
+</mdclass:CommonPicture>

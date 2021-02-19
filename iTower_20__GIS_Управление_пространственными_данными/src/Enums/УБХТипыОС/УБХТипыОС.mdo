@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f28554a3-4240-4881-b0b1-b430d57b0a81">
+  <producedTypes>
+    <refType typeId="1a2c8b4b-cdec-4ad5-82d6-eab1f2495abc" valueTypeId="b6322e5f-5505-4f72-a894-d67fdd25fce7"/>
+    <listType typeId="57fa447a-6284-4ed8-a7fe-a990837ade19" valueTypeId="e7408957-e0a5-46b8-939b-3482e2ed9daf"/>
+    <managerType typeId="ca516d67-db04-4406-9330-87e1a2873a0b" valueTypeId="ab92e2b4-1d88-4f5d-9b5b-098b6cb23dd8"/>
+  </producedTypes>
+  <name>УБХТипыОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы основных средств (ПБК)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="392b4558-6740-493d-aae3-88ecf1ce0d30">
+    <name>АМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АМС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2da21305-d908-4b76-8760-1bfbb9c2e4c7">
+    <name>ВЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68801531-aeb2-48bd-a839-fa390070b140">
+    <name>АСТУЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>АСТУЭ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="970d99af-3cfc-4164-9bcd-2790e039a22f">
+    <name>Ограждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5da5df8c-0094-4b1c-a74f-cb0cdc7a0e28">
+    <name>Земля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земля</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4ef3900-9a71-4733-ad04-7f390b93ae71">
+  <name>гисРедакторМультилинии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор мультилинии</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>MultyLineString editor</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

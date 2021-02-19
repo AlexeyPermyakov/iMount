@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="253ec932-d79b-45ce-b4fd-26d670e102f0">
+  <name>гисРесурсыКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гис ресурсы карты</value>
+  </synonym>
+  <comment>Кэш ресурсов карты</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

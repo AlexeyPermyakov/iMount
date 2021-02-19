@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71b84914-f658-4987-bf35-f32bf06d3a14">
+  <producedTypes>
+    <objectType typeId="e209fa92-551e-4f10-a366-d408154ddad9" valueTypeId="a8665ea1-856d-4c61-a15c-9e442ff38875"/>
+    <managerType typeId="0a11927f-95a8-4503-8f8b-d0f7d515cffe" valueTypeId="1d8ace8a-8b36-4ed2-ba9d-244b97a01896"/>
+  </producedTypes>
+  <name>гисКарта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.гисКарта.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="01bdffbe-b2ff-45d5-a528-c7a8b9b94fc8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43fbf0ad-c860-4240-a715-6bd58ab78cf7">
+    <name>ФормаСозданияОбъектовКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание объектов карты</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e7f9a8e-0e30-42dc-bcb6-d3be8698f616">
+    <name>ФормаПоискаПоАдресу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по адресу</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b100c32-7985-4e18-9352-b2fcedde9a31">
+    <name>ФормаПоискаПоКадастровомуНомеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск по кадастровому номеру</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a01c5421-71e6-468a-bcfb-4997e7840abd">
+    <name>ФормаПараметрыТематики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор параметров тематики</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f67a8d7d-5873-40a5-bcbd-fb4fb069d663">
+    <name>ФормаФильтрОбъектыКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6cba8d1d-1cf4-40ea-8efa-d31ab924d0b1">
+    <name>ОткрытьКарту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="2cb28696-d314-4c9c-b39d-c52376d86703">
+    <name>ПоказатьНаКарте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать на карте</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.гисКадастровыеЗемельныеУчастки</types>
+      <types>CatalogRef.гисОбъектыКарты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="6c860643-584f-4c84-b674-9128bcb479de">
+    <name>ПоказатьНаКартеОбъектКартыПоОбъектуУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать на карте</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="a93c511b-094b-4165-b645-6d8661b52f27">
+    <name>ПоказатьНаКартеКадастровыйЗемельныйУчастокПоОбъектуУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать на карте</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78197bf3-9ce2-4b4f-a3a9-bb9f8b419b96">
+  <producedTypes>
+    <containerType typeId="a16d1c3e-e104-44c3-8431-458d50b3ccc7" valueTypeId="2c0a3036-c4b1-4fc2-9ec7-aa54bfe29b32"/>
+  </producedTypes>
+  <name>лм_ВладелецУниверсальнойСтруктурыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец универсальной структуры данных</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.лм_ВидыУниверсальныхСправочников</types>
+    <types>CatalogRef.лм_ШаблоныБизнесПроцессов</types>
+  </type>
+</mdclass:DefinedType>

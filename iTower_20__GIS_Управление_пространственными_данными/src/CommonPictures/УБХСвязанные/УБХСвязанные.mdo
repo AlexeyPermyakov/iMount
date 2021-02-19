@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78f73dc6-f0a1-4d78-9981-6ddd3e4e7abb">
+  <name>УБХСвязанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e530fe6-7cc7-42fb-9b53-37729a60791a">
+  <producedTypes>
+    <objectType typeId="d4842638-d138-4433-9d10-683353c43bf4" valueTypeId="f8bc7f51-0890-42a5-9a79-ded234858ae8"/>
+    <refType typeId="32918adf-4de1-4c63-8d3a-c91466c23e01" valueTypeId="93fe95d6-e564-426f-ad55-36678d54ca34"/>
+    <selectionType typeId="b3cc96b5-6fed-49a3-b54e-46f2ac72c055" valueTypeId="18d372ed-5008-4393-9452-74d65f33ca77"/>
+    <listType typeId="f238a713-4f5a-43b3-aaa8-d13f805c1226" valueTypeId="4972affe-f8e9-4b9b-8721-feef47a3aa98"/>
+    <managerType typeId="d900c815-0741-4556-9605-bc1b36c6e85b" valueTypeId="23cbfed0-cbb3-4f10-9237-22c1b5b1771e"/>
+  </producedTypes>
+  <name>УБХТипыТрансформаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы трансформаторов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХТипыТрансформаторов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХТипыТрансформаторов.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="e48a1cfc-f69e-4dc1-86cc-0d5e50191acf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da3b4204-02ef-4fa5-808d-9f5f9f143af6">
+  <producedTypes>
+    <selectionType typeId="78713676-d63e-4797-a738-ffb0be14be7c" valueTypeId="53c5b27e-350a-4149-8fda-82bc9f8e2b02"/>
+    <listType typeId="2c5ba193-ed45-442e-9441-78994db4f552" valueTypeId="fda8cf4b-e652-44c7-9108-8e37b651a344"/>
+    <managerType typeId="fc1f24ec-723f-4cd8-a861-f0c140d75107" valueTypeId="53dd4fe5-ece1-4b95-9eaa-c9ad5045383d"/>
+    <recordSetType typeId="359f327a-f155-4a2d-8d36-864e548140ef" valueTypeId="367444a2-5687-4e4d-b8c7-2843f5cb4542"/>
+    <recordKeyType typeId="36f7afa7-4ad9-4beb-972a-4f31a442e192" valueTypeId="b544aa7f-0b92-42f3-9889-08244f809b06"/>
+    <recordType typeId="9684770f-10ea-4362-8cea-3ac526b46144" valueTypeId="d80e9ec0-d1ad-42ab-8193-a95d504f22b0"/>
+    <recordManagerType typeId="1e26220d-b03e-48c4-bd2e-595064953cb0" valueTypeId="152e4eb4-68f4-4762-8532-19f6e1d0e60a"/>
+  </producedTypes>
+  <name>лм_КэшЗависимостейУниверсальныхСтруктурДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэш зависимостей универсальных структур данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7302bfcc-6b4d-4f1d-9301-e19dfa9aefca">
+    <name>ВычисленныеЗависимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычисленные зависимости</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="6ad3f727-6c99-4449-a474-02c6dede7012">
+    <name>ХешСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш структуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="3d196dcd-d4bf-44c7-83d3-3e4d35478509">
+    <name>ИдентификаторСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор структуры</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6ffb1488-3b60-4f97-b108-44b657102fb9">
+    <name>ЭтоФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это форма</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

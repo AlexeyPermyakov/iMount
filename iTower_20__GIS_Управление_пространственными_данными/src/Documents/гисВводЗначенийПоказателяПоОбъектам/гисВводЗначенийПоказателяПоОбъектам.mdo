@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aa55263-897a-4ba8-be3e-8f17d9b93323">
+  <producedTypes>
+    <objectType typeId="5f77bd28-7c87-4d27-a586-55cf30263c56" valueTypeId="4f80031b-5fbf-4540-b415-f87ab65f17bd"/>
+    <refType typeId="e8240c1d-3799-4f8b-8c5c-047dc2325bd2" valueTypeId="f3bbcdbf-cd5c-4593-839f-17d16f877ea6"/>
+    <selectionType typeId="cf31c9d9-d29b-46bb-a843-881a48406fd4" valueTypeId="0df61050-1ba1-4dda-afc5-5bc2dfd5b9ac"/>
+    <listType typeId="dd6eeb8a-a4fd-41aa-8cb3-38cf52cd1a34" valueTypeId="57cb1751-04b7-4ce2-b3b7-4695a3a4a426"/>
+    <managerType typeId="9c64957c-26d2-4fd8-8376-e68f78cbda1d" valueTypeId="1886d3a9-9b3d-4a28-ae79-e66d54a6587a"/>
+  </producedTypes>
+  <name>гисВводЗначенийПоказателяПоОбъектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод значений показателя по списку объектов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Input values for the indicator</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гисВводЗначенийПоказателяПоОбъектам.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гисВводЗначенийПоказателяПоОбъектам.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.гисЗначенияПоказателейОбъектов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="49b7be71-fa99-4485-8f95-597621ca9968">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Indicator</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисПоказатели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатель, значения которого нужно задать в документе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b466c2cf-bb35-4b9e-a365-ed598dd44dea">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1cf1edaa-286b-4d6a-a7c4-7cf0eeffcb5c">
+    <producedTypes>
+      <objectType typeId="35dedd8b-cadd-4bb3-8d35-5c6d4fa6f185" valueTypeId="b35fba65-00c1-4a04-aa71-d79f4950a05b"/>
+      <rowType typeId="b4cfc301-819c-495d-93ea-414ba15c4589" valueTypeId="7c10b0b9-d888-4853-a0ee-f1663fd06bb3"/>
+    </producedTypes>
+    <name>Значения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Indicator values</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличная часть, в которого задаются значения объектов по показателю, указанному в шапке</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fac8c129-f63a-4a61-b626-34d147ca7010">
+      <name>ОбъектКарты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект карты</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Object</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гисОбъектыКарты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект карты, для которого задается значение показателя</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9abdece3-ceef-482e-9f5b-1e2efb629bb9">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>Number</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение показателя, заданного в шапке, по объекту</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

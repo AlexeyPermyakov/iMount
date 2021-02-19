@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfb90d05-09ea-4ba9-bbab-985e7de84a03">
+  <producedTypes>
+    <refType typeId="c934bd8b-3e85-4b70-b039-2fb69d85bf90" valueTypeId="5c700a8f-e845-4069-a28d-51ce4177e8af"/>
+    <listType typeId="6ede2c94-e589-4f34-b8e3-8397abc1bf13" valueTypeId="17d6f5fb-fce4-49f4-993f-e1dcfed6fc6f"/>
+    <managerType typeId="b3e2ca95-c940-425a-b487-9dd9db8bb243" valueTypeId="a8dbc78f-670f-492a-b004-2e70992c52fd"/>
+  </producedTypes>
+  <name>лм_СтатусыШаблонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы шаблонов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.лм_СтатусыШаблонов.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="75cd5709-377a-4163-bccd-c10b58d2bb8a">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19bd69fe-1409-4511-9b30-c617a24882a4">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="3a815877-704c-48f5-9790-5a1557e90b6e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

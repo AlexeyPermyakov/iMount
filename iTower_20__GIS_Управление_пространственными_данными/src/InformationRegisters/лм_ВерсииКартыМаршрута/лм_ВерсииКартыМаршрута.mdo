@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce17373d-3282-42c5-917d-913768b72da0">
+  <producedTypes>
+    <selectionType typeId="acf81744-3fc8-4e1e-97b1-f3348749144e" valueTypeId="891ce2dc-7391-4166-9c03-352b3c3ef472"/>
+    <listType typeId="4cfb4c76-cf39-4887-a578-e9298db859d6" valueTypeId="0f8e27e7-5383-4517-85cd-b626ef47a730"/>
+    <managerType typeId="ecfc1a9f-bf87-4c37-8cb9-9577c0ceb422" valueTypeId="35a79937-b052-4c13-837b-34629141163a"/>
+    <recordSetType typeId="958b2d61-bd1a-4ea6-b268-c4c3a926c2e5" valueTypeId="1bbacfc2-04c1-4fa3-9125-33a9e109d3a2"/>
+    <recordKeyType typeId="866dcc67-e040-4a7d-ba88-c8f95bcbbe78" valueTypeId="1836add3-e470-4a9e-b920-b3ae4b6b5e9e"/>
+    <recordType typeId="11a34350-a19f-4eb6-8ddf-fa5e9e0c27fb" valueTypeId="3b6ffd56-de02-4204-a806-a2c4caf73fe7"/>
+    <recordManagerType typeId="2705f601-a294-4c61-95bb-7bcb4142b357" valueTypeId="001bbda7-f372-4cf7-9810-d9de4cda0938"/>
+  </producedTypes>
+  <name>лм_ВерсииКартыМаршрута</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии карты маршрута</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8c755a4c-9fea-43f3-afec-af4bf7438ab6">
+    <name>КартаМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта маршрута</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6b0e4fba-1684-4d82-9cca-3f1199e03eb4">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.лм_ШаблоныБизнесПроцессов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ef78dc05-9fa4-4763-8f6d-1f406bcdc8b9">
+    <name>НомерВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер версии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

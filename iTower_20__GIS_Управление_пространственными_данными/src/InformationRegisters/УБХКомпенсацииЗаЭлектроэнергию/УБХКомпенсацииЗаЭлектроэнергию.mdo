@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5ec9d8c-f00c-47d4-bb65-fdd4717cd56d">
+  <producedTypes>
+    <selectionType typeId="43467cee-0ebf-44d5-bac7-beda17ed3313" valueTypeId="9bbd1192-bbfa-4981-bab6-3fe758c76a87"/>
+    <listType typeId="93b8b9a2-04fd-4740-883f-004a6dd96f50" valueTypeId="9e7408e1-551b-462b-8906-8be1b21e190f"/>
+    <managerType typeId="b576365a-9659-43e1-af96-a419d4dad6f9" valueTypeId="e05921dc-dcac-4e22-a860-cd7ded66e99f"/>
+    <recordSetType typeId="7b0cb032-cefe-47a7-b98f-12bbe2a4e523" valueTypeId="cfd5e240-f45a-4289-abca-54ef07ac7bc9"/>
+    <recordKeyType typeId="ede6f8e7-35c1-4e37-8dba-56f871f7df99" valueTypeId="d62ca453-e6ac-4204-87a4-6c7f69a437ea"/>
+    <recordType typeId="fae03ab6-7c35-454e-8c30-9f0c868faf11" valueTypeId="60d49a73-f874-4ed6-82ec-07c1848739e4"/>
+    <recordManagerType typeId="82556307-8dc2-47c7-bb33-e0f091468981" valueTypeId="4e10a9e3-64e6-4364-bf05-913e98b24052"/>
+  </producedTypes>
+  <name>УБХКомпенсацииЗаЭлектроэнергию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компенсации за электроэнергию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2912b906-a588-4d1c-9d80-71a4b2702ade">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плата за мощность, руб. без НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d45fe0df-5818-49a4-97ff-d161af4b55aa">
+    <name>МощностьНижняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мощность, Вт (нижняя граница)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1c032f8c-cc43-466e-ba5d-a36a5c793409">
+    <name>МощностьВерхняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мощность, Вт (верхняя граница)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b66787b7-6693-4012-9be0-8d9a27320b85">
+  <name>ЗИК</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЗИК</value>
+  </synonym>
+  <comment>Земельно-имущественный комплекс</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.УБХЗемельныеУчастки</content>
+  <content>Catalog.гисКатегорииЗемель</content>
+  <content>Catalog.гисВидыРазрешенногоИспользования</content>
+  <content>Catalog.гисВидыПравНаКадастровыйУчасток</content>
+  <content>Catalog.гисВидыКадастровыхУчастков</content>
+  <content>Catalog.гисСтатусыКадастровыхУчастков</content>
+  <content>Enum.УБХСтатусыЗаписиОбОбъектеНедвижимости</content>
+  <content>Enum.УБХМестоположенияАМСОтносительноЗУ</content>
+  <content>Enum.УБХОбъектыЗУ</content>
+  <content>Enum.УБХВидыГосРегистрацииПрава</content>
+  <content>Catalog.УБХВидыОграниченийИОбремененийЗУ</content>
+  <parentSubsystem>Subsystem.УБХНСИ</parentSubsystem>
+</mdclass:Subsystem>

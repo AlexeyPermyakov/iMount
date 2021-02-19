@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c539d01-474d-4883-9188-d7c981d9e203">
+  <name>УБХУправлениеЗемельнымКомплексом</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЗИК</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УБХЗИК</picture>
+  </picture>
+  <content>6abecace-b186-41ec-9881-ea81cba1c53b</content>
+  <subsystems>ЗемельныеУчастки</subsystems>
+  <subsystems>ЛесныеУчастки</subsystems>
+</mdclass:Subsystem>

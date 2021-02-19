@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="310911cd-28e3-4098-9119-f3c799ad06f5">
+  <producedTypes>
+    <managerType typeId="dba81461-04ed-45fb-8f23-3006f0792853" valueTypeId="b3b3c4c8-049d-4a63-8588-8d8f93912d8f"/>
+    <valueManagerType typeId="a0ea9024-c843-4e9f-bf85-307e7010fe9c" valueTypeId="31ba528b-4253-4673-8c5b-432f99b08be3"/>
+    <valueKeyType typeId="078af7e3-c0c2-5424-90dd-352ce331f2fe" valueTypeId="5dea0c2e-c6ce-514a-b7f6-530b7e1bc10f"/>
+  </producedTypes>
+  <name>гисЗащитаПараметрыСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры связи (защита)</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

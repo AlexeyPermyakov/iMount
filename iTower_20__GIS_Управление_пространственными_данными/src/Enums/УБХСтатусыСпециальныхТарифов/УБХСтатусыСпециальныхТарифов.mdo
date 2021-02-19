@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9f0efb6-8cca-4d52-9e3d-1cb982efd1eb">
+  <producedTypes>
+    <refType typeId="8bb80ade-0e73-4d65-9636-4ec185a669ef" valueTypeId="232f5589-ee55-47f6-b07a-5b5cb58a3196"/>
+    <listType typeId="f997e353-a4fd-42f7-8e18-257b6025fffa" valueTypeId="00b17037-9d34-444e-92be-89b3c933fefb"/>
+    <managerType typeId="fa2bea9c-b479-4616-972c-208db1b72191" valueTypeId="88e20285-f093-4bae-bcca-ac9dd5071a3f"/>
+  </producedTypes>
+  <name>УБХСтатусыСпециальныхТарифов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы специальных тарифов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХСтатусыСпециальныхТарифов.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="4aca3e19-d10f-4805-aa44-14cc77c5e31d">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e39bdea2-08d4-45d6-b585-ae7b352a3139">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffc92271-43ee-43a1-ae9e-f96e00b4e4db">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f54f718-178a-4bae-80d6-957f630662a4">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="f093846b-4870-46f7-a529-41ba102d314b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

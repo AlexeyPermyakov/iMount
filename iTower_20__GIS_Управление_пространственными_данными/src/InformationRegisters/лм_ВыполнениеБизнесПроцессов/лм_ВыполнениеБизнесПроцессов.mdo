@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c39f5af-e439-46b1-8416-fabec9ec396c">
+  <producedTypes>
+    <selectionType typeId="18a7143f-9158-48bd-8b98-466f92dfd37d" valueTypeId="16e253b5-2935-4aff-837c-888803777395"/>
+    <listType typeId="c4ad64cb-c836-46f9-88e4-6847cd52ce62" valueTypeId="df1d86dd-6f8d-46fb-9651-0104ea28c8ce"/>
+    <managerType typeId="a2329e07-9939-4574-ad52-6abb97ab59a7" valueTypeId="e34a98c1-e379-4a56-ba05-6a24fcdf73da"/>
+    <recordSetType typeId="d339fe87-168b-4410-b91e-ba706c134f0f" valueTypeId="685b9caf-6358-4fd1-a4c7-c3c49176f9e3"/>
+    <recordKeyType typeId="94eafce7-2a0e-4345-b1b4-457798efd97f" valueTypeId="12534542-6476-4d35-8a4e-7023c60afcc6"/>
+    <recordType typeId="13982182-e424-475a-a26d-32e18f49decc" valueTypeId="3357c786-7c96-40ba-b544-8fe35e5f379a"/>
+    <recordManagerType typeId="fdd5318b-ed22-4966-9f4f-1fe5ebf6b9f1" valueTypeId="fb85c7b6-8f28-42ab-89fc-7633bf95be57"/>
+  </producedTypes>
+  <name>лм_ВыполнениеБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение бизнес-процессов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f03d2dd4-c0b7-4a48-911a-8815b30568fe">
+    <name>Активная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b30dc160-a155-4676-8516-9461f6b71bfa">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процесс</value>
+    </synonym>
+    <type>
+      <types>BusinessProcessRef.лм_БизнесПроцесс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8422cce5-e3f7-4b7b-a1c7-4f4f348b6756">
+    <name>ИдентификаторТочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор точки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aa86540b-8026-424b-b95a-72423127b5d7">
+    <name>ИдентификаторТочкиВхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор точки входа</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="353fa70b-1495-4f93-b9b8-7173a84fe126">
+    <name>Итерация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итерация</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

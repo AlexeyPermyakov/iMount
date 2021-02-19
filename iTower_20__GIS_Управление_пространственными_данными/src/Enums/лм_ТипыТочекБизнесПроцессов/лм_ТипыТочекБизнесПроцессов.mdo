@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ee78c5e-0f90-4c02-bf06-e8377668a1b6">
+  <producedTypes>
+    <refType typeId="f0973479-5959-4844-9009-0193b517edea" valueTypeId="8f2aeba6-87b4-4f29-a2da-4fe03d841b2e"/>
+    <listType typeId="c383d610-69e7-40f3-a345-96588e828764" valueTypeId="fbb084ce-a9a2-4b3d-a2cd-03582cb7d2f5"/>
+    <managerType typeId="76b85b5b-fb72-4403-855f-2401c293dc73" valueTypeId="08dcfdd1-8e1c-48e5-9527-53ed218de69a"/>
+  </producedTypes>
+  <name>лм_ТипыТочекБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы точек бизнес процессов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.лм_ТипыТочекБизнесПроцессов.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="763fd2b3-d1db-4df8-ace3-2f2c745487c6">
+    <name>ТочкаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка действия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="302db2f3-b005-475c-a7a6-168380dfc8b0">
+    <name>ТочкаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка обработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e456238-7421-4e98-af09-5fb7407c07c7">
+    <name>ТочкаУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка условия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76cba3cb-c11e-4d94-b107-b5095b9cd01e">
+    <name>ТочкаПодпроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка подпроцесса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="962f8d48-35c3-4287-9669-7dc6c2488aa4">
+    <name>ТочкаРазделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка разделения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="532c6129-cacc-4716-bc61-b1a624a8b436">
+    <name>ТочкаСлияния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка слияния</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41eb9920-be4d-4b72-b1d9-a4557c07a4fe">
+    <name>ТочкаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка выбора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3366dae-780a-4564-b805-8ec1fc4d50ca">
+    <name>ТочкаСтарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка старта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cfb44fe-008d-4be8-9604-e5498531b76d">
+    <name>ТочкаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка завершения</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="0471df0c-0f6d-4e3f-9c68-7fa55fdd1c60">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

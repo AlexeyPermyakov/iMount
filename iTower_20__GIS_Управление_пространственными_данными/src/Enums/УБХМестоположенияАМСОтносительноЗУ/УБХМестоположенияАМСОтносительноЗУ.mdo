@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daae3026-89d2-4be1-a99a-7bae724aff56">
+  <producedTypes>
+    <refType typeId="b904b591-9543-419e-a471-8fc2a62c9f01" valueTypeId="842ee845-ff7d-4bff-b4cc-739798190f10"/>
+    <listType typeId="69a1f051-ecb4-4cec-9dde-402b851d2e30" valueTypeId="157ffd13-91e1-4039-ad2f-911fb2acc562"/>
+    <managerType typeId="b2d92cd7-1a26-4b38-87fe-a6ce591ee510" valueTypeId="67c69a3f-fad6-4e6a-908f-10612b718fa8"/>
+  </producedTypes>
+  <name>УБХМестоположенияАМСОтносительноЗУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местоположения АМС относительно ЗУ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХМестоположенияАМСОтносительноЗУ.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="f06e7a6e-8ab9-4667-a38f-3bddd45a2589">
+    <name>ТребуетсяОпределение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется определение местоположения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75d31ea9-22f2-4222-b1b8-4b51080d0e53">
+    <name>ВГраницах</name>
+    <synonym>
+      <key>ru</key>
+      <value>В границах ЗУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8275ad4a-315f-43d3-89d0-7500fcb401be">
+    <name>НеВГраницах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не в границах ЗУ</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="c57be67d-1565-4bdb-bd8c-a13f317e420c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70d9a433-2ad4-4132-834e-cb7bb1154fc9">
+  <name>ПодсистемаУправлениеПроцессами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема управление процессами</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da035b78-d548-4130-80a9-8caeff222356">
+  <producedTypes>
+    <refType typeId="4a521c8b-e358-419c-9ef7-d7ac8e6268af" valueTypeId="41d939d5-2da9-44aa-8dca-d71f91db4bad"/>
+    <listType typeId="37c006d9-3bc7-4e0c-b784-8f80d1fbf205" valueTypeId="43ac7c13-36a3-4ea5-b8aa-eb3ed50ff94c"/>
+    <managerType typeId="564ccbed-7e8a-45cf-9f1f-3c654e69437f" valueTypeId="c1b4eee7-8854-4a89-87e9-550ae95d5229"/>
+  </producedTypes>
+  <name>УБХТипыМестности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы местности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХТипыМестности.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="fdeac7c2-70e8-4a19-9398-9998c917dcd0">
+    <name>Тип_A</name>
+    <synonym>
+      <key>ru</key>
+      <value>A</value>
+    </synonym>
+    <comment>латиница</comment>
+  </enumValues>
+  <enumValues uuid="09d27d09-66a2-4505-a008-9f902e60701f">
+    <name>Тип_B</name>
+    <synonym>
+      <key>ru</key>
+      <value>B</value>
+    </synonym>
+    <comment>латиница</comment>
+  </enumValues>
+  <enumValues uuid="73cc616d-0a01-455d-8aea-199b96d79e11">
+    <name>Тип_C</name>
+    <synonym>
+      <key>ru</key>
+      <value>C</value>
+    </synonym>
+    <comment>латиница</comment>
+  </enumValues>
+  <forms uuid="0159cf1e-551b-4332-b4ba-bf36c8e4fbfa">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

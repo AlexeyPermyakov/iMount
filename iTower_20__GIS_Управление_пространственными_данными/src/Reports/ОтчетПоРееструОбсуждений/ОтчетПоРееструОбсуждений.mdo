@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef9ac409-ff0a-4773-b421-22914867fd20">
+  <producedTypes>
+    <objectType typeId="c431468c-9306-4fda-8c7c-edd5edc9ef78" valueTypeId="ee0283f0-c557-4db3-9031-2579b5380019"/>
+    <managerType typeId="4873c308-5335-458f-a9da-1a520a1db049" valueTypeId="41c59771-94fc-411c-b5d7-6970c4a9ad9d"/>
+  </producedTypes>
+  <name>ОтчетПоРееструОбсуждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по реестру обсуждений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоРееструОбсуждений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c9911194-419b-4a93-8de8-7da2e94a5158">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

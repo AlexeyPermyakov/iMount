@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16b8c96d-cac0-489a-a9a6-40a13c59bad7">
+  <name>УБХКоммерческоеПредложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коммерческое предложение</value>
+  </synonym>
+</mdclass:CommonTemplate>

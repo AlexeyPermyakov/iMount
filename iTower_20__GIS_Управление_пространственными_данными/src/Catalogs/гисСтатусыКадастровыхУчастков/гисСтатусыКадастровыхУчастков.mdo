@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2581ac9-437e-4296-9771-88fd1f345578">
+  <producedTypes>
+    <objectType typeId="b8398275-636a-4865-9b85-a815ce054c2f" valueTypeId="3298352a-c4e9-406e-b821-752148b49878"/>
+    <refType typeId="f8bfcf62-3b35-45a1-8fd5-c2640cae9581" valueTypeId="c14cd314-5334-49fa-9283-0fefdb32024c"/>
+    <selectionType typeId="05a2a922-3f3b-4d6b-b43b-62e6b3fc3c45" valueTypeId="6541cba8-f891-4ace-92f3-b914e40dc918"/>
+    <listType typeId="f624fc59-8e99-4a33-95fa-c72e76198195" valueTypeId="a4ef4252-82e4-45bd-855b-c4c3318d4abb"/>
+    <managerType typeId="f187a721-7633-4e2b-98fb-fa518ca67c71" valueTypeId="f875ea67-4006-4baa-a092-146e140799e8"/>
+  </producedTypes>
+  <name>гисСтатусыКадастровыхУчастков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы кадастровых участков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гисСтатусыКадастровыхУчастков.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гисСтатусыКадастровыхУчастков.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус кадастрового участка</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код статуса кадастрового участка</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статус кадастрового участка</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="80239cbb-351c-49e6-8fb2-4e4317adb0f0">
+      <name>Аннулирован</name>
+      <description>Аннулирован</description>
+      <code xsi:type="core:StringValue">
+        <value>08</value>
+      </code>
+    </items>
+    <items id="5398c48c-16b4-45e1-8f0c-854f2d0b3534">
+      <name>Архивный</name>
+      <description>Архивный</description>
+      <code xsi:type="core:StringValue">
+        <value>07</value>
+      </code>
+    </items>
+    <items id="857b4ec2-de63-4d65-abe1-05ebbdc30f92">
+      <name>Внесенный</name>
+      <description>Внесенный</description>
+      <code xsi:type="core:StringValue">
+        <value>04</value>
+      </code>
+    </items>
+    <items id="4cfef27d-c3d8-49a5-bb54-e767122866bc">
+      <name>Временный</name>
+      <description>Временный</description>
+      <code xsi:type="core:StringValue">
+        <value>05</value>
+      </code>
+    </items>
+    <items id="5f8583cc-403b-43cb-9113-5d0d59c13fa1">
+      <name>РанееУчтенный</name>
+      <description>Ранее учтенный</description>
+      <code xsi:type="core:StringValue">
+        <value>01</value>
+      </code>
+    </items>
+    <items id="f695673a-8834-40b4-93cb-ada99391c09b">
+      <name>Условный</name>
+      <description>Условный</description>
+      <code xsi:type="core:StringValue">
+        <value>03</value>
+      </code>
+    </items>
+    <items id="140b0efa-258b-4872-b0ea-40c45bfe71f6">
+      <name>Учтенный</name>
+      <description>Учтенный</description>
+      <code xsi:type="core:StringValue">
+        <value>06</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

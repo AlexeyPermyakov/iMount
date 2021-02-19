@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72175aa5-c7ad-48e1-b2b7-778d95cd1d98">
+  <producedTypes>
+    <selectionType typeId="43e73a98-6004-48f3-a781-abad354aefaa" valueTypeId="b959c129-31e7-4ff6-b8cd-fd5fa8b9c7ab"/>
+    <listType typeId="2d7da174-85e2-4562-951b-20fb4287a7f2" valueTypeId="6454f501-96a0-477b-a503-5715b5c99e14"/>
+    <managerType typeId="2bb2e483-0cf9-46f5-b0f9-8e92574892b1" valueTypeId="c524de7e-f747-4797-b959-ab32d153328a"/>
+    <recordSetType typeId="22c03db2-6ba3-45cc-b13a-b9fd5391c1de" valueTypeId="1df2b033-bce0-446a-aebd-0e2aae435d89"/>
+    <recordKeyType typeId="14101f6c-74bb-46da-a1bd-13bc5b3521f2" valueTypeId="0a1959e2-abf0-4718-ab87-b991759e5a1d"/>
+    <recordType typeId="3bbb4a6c-ce97-4f96-85a0-0aa3dd353584" valueTypeId="9b6ac24a-9944-4e21-a434-fafd39d5c228"/>
+    <recordManagerType typeId="b6fa6a09-3edf-4fb4-a2c5-f46af62feafa" valueTypeId="0e40ac65-e092-44fd-9d8d-4e71a8eb34df"/>
+  </producedTypes>
+  <name>УБХСтандартныеТарифыКлиентскихГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные тарифы клиентских групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УБХСтандартныеТарифыКлиентскихГрупп.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3df0957a-d2ef-44db-97dc-960b88dd693e">
+    <name>ТарифРазмещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф размещения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХТарифыРазмещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1e23a8b6-ab59-485c-a098-fbd5f3947237">
+    <name>КлиентскаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиентская группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХКлиентскиеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="188fe3d6-38ed-4805-b83b-d21a97303a0b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

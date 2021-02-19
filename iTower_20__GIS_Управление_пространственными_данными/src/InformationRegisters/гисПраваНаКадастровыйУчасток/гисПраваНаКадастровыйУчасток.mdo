@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcb54b96-6b47-4277-8061-9034c8dcec0a">
+  <producedTypes>
+    <selectionType typeId="39243324-2274-4b59-ad55-8816e54792e6" valueTypeId="cc641fe3-0d14-4533-ad67-5b537ecb5fa8"/>
+    <listType typeId="83934821-8a59-4bbd-a4b2-823f5ed6abdd" valueTypeId="48469acf-dfee-41c9-95c4-f159ead05a35"/>
+    <managerType typeId="01203968-37a0-4573-8e8c-c3227f47f145" valueTypeId="cf5ef5c1-f475-47a6-8625-35cb266a040e"/>
+    <recordSetType typeId="11be732e-a4c5-4971-83b1-a97dc0c62368" valueTypeId="4b899165-d505-4ffa-9c91-f64eb1cf1eb3"/>
+    <recordKeyType typeId="28eb40fa-3cd0-435b-b2d4-2b5dd8ca4364" valueTypeId="57a5ba7d-7beb-4520-b34a-a7f9915553c1"/>
+    <recordType typeId="f720f0ed-2018-41bb-bcf4-20468dae5564" valueTypeId="864c3bc4-179c-4596-acd6-7e9b2d144dad"/>
+    <recordManagerType typeId="b8d7d631-8dc5-47ca-8b32-c43832521bdc" valueTypeId="18397ef9-4217-432a-a9f2-def205fa6127"/>
+  </producedTypes>
+  <name>гисПраваНаКадастровыйУчасток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права на земельный участок</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ГРП</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата государственной регистрации права</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2537d73b-5a0a-4d9f-a698-51894a41b33b">
+    <name>ЧислительДробиДоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Числитель дроби доли</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Знаменатель дроби доли кадастрового земельного участка, на которую распространяется право</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bdfce85b-e245-4e5c-8b89-72093940bf25">
+    <name>ЗнаменательДробиДоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Знаменатель дроби доли</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Знаменатель дроби доли кадастрового земельного участка, на которую распространяется право</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="32dcfd21-eb4a-4e4b-bc5d-8268c84f71dc">
+    <name>ПлощадьДоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь доли</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Площадь доли кадастрового земельного участка, на которую распространяется право</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="99112063-fc8e-4738-814b-6bd0f2f073a9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к праву на кадастровый земельный участок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c0f6cc64-53e9-4a69-848e-c44823c6da7a">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документы-основания права на кадастровый земельный участок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8a0b58af-d7de-4aa7-9bb3-d7000779bcab">
+    <name>НомерГРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ГРП</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Номер государственной регистрации права</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>45</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер государственной регистрации права</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="2b769893-3edc-4c48-867f-6ebd7c7059b1">
+    <name>КадастровыйУчасток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земельный участок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисКадастровыеЗемельныеУчастки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Земельный участок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="24b63681-6acf-491a-883a-28c25997a8ce">
+    <name>ВидПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид права</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисВидыПравНаКадастровыйУчасток</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид права на кадастровый земельный участок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aede78b8-eec5-40af-ba7c-bf79ed3d0d25">
+    <name>Правообладатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правообладатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Правообладатель, владеющий правом на кадастровый земельный участок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="759f9078-e64c-40ac-b3d6-fd3a559d6c1a">
+    <name>НомерВТаблице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер в таблице</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер по порядку, нужен уникальности записи, так как остальные 3 измерения могут совпадать</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

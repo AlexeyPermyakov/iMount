@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35a8d0ed-182b-4cfa-b7ce-855f5d1e7c48">
+  <producedTypes>
+    <containerType typeId="62b2537c-b5fb-4f2a-91b1-b7f0f55d8fcc" valueTypeId="448fba74-c3f3-4518-a1e7-e0e7fe18d36b"/>
+  </producedTypes>
+  <name>УБХОбъектыПлощадки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты площадки</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УБХАМС</types>
+    <types>CatalogRef.УБХКТП</types>
+    <types>CatalogRef.УБХОсновныеСредства</types>
+    <types>CatalogRef.УБХЗемельныеУчастки</types>
+    <types>CatalogRef.УБХВЛЭС</types>
+  </type>
+</mdclass:DefinedType>

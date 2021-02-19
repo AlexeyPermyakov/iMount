@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="564f1d77-f9dd-46e0-ae81-0f3bcccddcad">
+  <producedTypes>
+    <objectType typeId="7147b920-4cbd-4927-be2f-4ea1bf4e549e" valueTypeId="3c67bb28-3235-4fea-8905-cbcfe368bc5c"/>
+    <refType typeId="afc33583-9fc4-45f1-82d6-993b006f555b" valueTypeId="f1d11f06-4142-4f1f-a6fb-fa16a840e6b6"/>
+    <selectionType typeId="e1fac460-e629-4ef3-90b1-024dcbf3e482" valueTypeId="3c262920-6400-48d8-80d7-251d8c740d9b"/>
+    <listType typeId="59223ef3-18e2-4130-8aa3-b231baf08d75" valueTypeId="e01d1a05-adf4-4b8e-a2ab-77481021c405"/>
+    <managerType typeId="20aef654-f866-4b0c-adfd-4f124a08478f" valueTypeId="e350c67f-bea9-4e79-bf8a-26ef95f29681"/>
+  </producedTypes>
+  <name>УБХЗемельныеУчастки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Земельные участки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УБХЗемельныеУчастки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УБХЗемельныеУчастки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УБХЗемельныеУчастки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УБХЗемельныеУчастки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="001ea61c-52bf-474a-98a1-57e9037849a3">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХСтатусы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d55a8160-cf9b-46eb-8ac9-99a98d088c03">
+    <name>ВидПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид права</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисВидыПравНаКадастровыйУчасток</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccd97e44-a005-457e-8cb0-bef10093900f">
+    <name>АдресЕГРН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес из ЕГРН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="726d6ab2-18e1-462c-968f-314d4e0567da">
+    <name>КадастровыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый номер ЗУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кадастровый номер кадастрового земельного участка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94736823-9c09-4eed-92e3-9898bc458d80">
+    <name>КадастровыйНомерЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый номер части ЗУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кадастровый номер кадастрового земельного участка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4766b65f-01d4-445c-bcc6-d5a9b688fe0d">
+    <name>АдресПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0aa8d435-7ec9-4349-9739-8c114368f2cd">
+    <name>Широта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Широта</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБХКоординаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e427f48-e2bc-452c-ba8f-489b2cc9fdf7">
+    <name>Долгота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгота</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УБХКоординаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2dbe1f29-00c5-4a85-80ff-7594541c380b">
+    <name>АдресНГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес номенклатурной группы (1С)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bbbeda42-156c-4782-b5fd-f95f1faee71e">
+    <name>КадастровыйКвартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый квартал</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47cdbd4e-d5a2-4b06-a35f-4468b8fd490d">
+    <name>ДатаПостановкиНаУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата присвоения кадастрового номера ЗУ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата постановки на учет кадастрового земельного участка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f706f7c-f6ce-430a-9967-abbeb6780e74">
+    <name>КадастровыйНомер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый номер ЗУ (1С)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кадастровый номер кадастрового земельного участка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e0af667-9371-428c-b4a9-1e349d28aa06">
+    <name>КатегорияЗемель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория земель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисКатегорииЗемель</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория земель кадастрового земельного участка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="00d1a32f-a31a-434a-b3aa-801a946f0dfc">
+    <name>ВидИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешенное использование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисВидыРазрешенногоИспользования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид использования кадастрового земельного участка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3af07954-95b3-482e-869f-e850d656bd11">
+    <name>РазрешенноеИспользованиеПоДокументу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешенное использование по документу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db7092fc-84a9-43a7-87d0-d24a0e4b2f56">
+    <name>Площадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая площадь ЗУ по кадастровому номеру, м2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Площадь кадастрового земельного участка, м2</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f466302-5713-477c-b494-2010157b8bff">
+    <name>АрендуемаяПлощадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Арендуемая площадь, м2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Площадь кадастрового земельного участка, м2</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b736dd2d-0e3e-469f-a776-a06beaa9c895">
+    <name>КадастроваяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровая стоимость, руб.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кадастровая стоимость кадастрового земельного участка, руб</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3eb6469-82cf-4374-836f-b7e77ce76052">
+    <name>КадастроваяСтоимостьМетра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровая стоимость 1 м2, руб.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Кадастровая стоимость кадастрового земельного участка, руб</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ebe9568-79e8-40b0-a722-198dce4340c9">
+    <name>ДатаУтвержденияСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата утверждения кадастровой стоимости (ЕГРН)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2f52bdd-ed30-4bdd-b2d3-248935b4e0c6">
+    <name>МестоположениеАМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местоположение АМС относительно ЗУ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБХМестоположенияАМСОтносительноЗУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="674828e0-62b7-4740-8f7d-b5a4a0086888">
+    <name>НаличиеОграждения1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие ограждения (1С)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3b7acf21-183d-44b7-92ef-2b33d4f0ec3a">
+    <name>НаличиеОграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие ограждения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f235c69c-3c6e-4f7f-9670-ae58963cf33d">
+    <name>ПлощадьОграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь ограждения, м2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5b804383-87a8-4fc6-a0e2-815a5835710f">
+    <name>ПлощадьЗаОграждением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь за ограждением, м2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97a0de44-a4ad-411d-8d7c-4065025b297a">
+    <name>ПлановаяДатаЛегализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата легализации ЗУ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48ee6e16-537b-4b42-bb02-f8b0e82be9d8">
+    <name>ПлановаяДатаВыкупа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата выкупа ЗУ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3177d85-99b5-46ee-a389-41bf53f38d40">
+    <name>ОснованиеДляРазмещенияОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание для размещения объекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисВидыПравНаКадастровыйУчасток</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c9fa8eb-8dc2-49da-af18-4cb9c634324e">
+    <name>АктивныйКандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный кандидат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c727c18-e179-43df-ae40-0436063b4eb4">
+    <name>ДатаСогласованияМФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата согласования МФ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e410fa28-e57e-4476-a3a3-c7a1b3038d70">
+    <name>ДатаСогласованияЗИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата согласования ЗИК</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e54a71d6-ee6d-436a-902d-973fb54c9853">
+    <name>СтатусЗаписиОбъектаНедвижимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус записи об объекте недвижимости (на ЗУ)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБХСтатусыЗаписиОбОбъектеНедвижимости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ce8ba46-6c40-435e-9224-eaecc41e0e42">
+    <name>СтатусОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус объекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гисСтатусыКадастровыхУчастков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9f46816-a3a4-4c7c-b0ae-5139af0ceaf0">
+    <name>НоменклатурнаяГруппа1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование номенклатурной группы (1С)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатурныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ece1b15d-7812-45ed-91ae-4ef81b60aab1">
+    <name>Код1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ЗУ в 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09bedd27-3aa6-4390-959a-27400b7471db">
+    <name>ОсновноеСредствоSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОС ЗУ SAP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1c3bae7-f572-49f6-a5f3-4e98c5f71794">
+    <name>ДатаПринятияКУчету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято к учету</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3385717d-edf5-4a7f-9d84-cdb0dd3bce65">
+    <name>ДатаСнятияСУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снято с учета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24b6fe3f-7fe9-49a3-8aed-ff78075212f7">
+    <name>ОбъектыЗУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты ЗУ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УБХОбъектыЗУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf15cfdf-c7c1-4222-9590-9420dbed27aa">
+    <name>ОсобаяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>КА особых категорий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55b9415d-ed34-4543-9ca3-558946267450">
+    <name>ЭтоЛесныеУчастки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лесные участки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72734c63-0b74-47c5-b5fe-3858b37b3a32">
+    <name>ВыкупНеВозможен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выкуп невозможен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8db49ce8-bfd4-4726-9710-cc5e5b8e5487">
+    <name>ДатаРегистрацииПрава1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации права (1С)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd68731c-158f-4d25-95e1-f84e4907aea0">
+    <name>ДатаПрекращенияПрава1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прекращения права (1С)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="403e6fe0-393f-44ee-861d-b9489d500f44">
+    <name>Площадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УБХПлощадки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68608989-0a89-4f88-a082-92aa3c6e1ac2">
+    <name>Правообладатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правообладатели</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="371ec8f2-f489-4d8a-9e3b-39ecb4d2d2d9">
+    <name>ВидыГосРегистрацииПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды гос. регистрации права</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ddb8b2e-c16c-49e4-876a-cb1699c1c46c">
+    <name>НомераГосРегистрацииПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номера гос. регистраций права</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7b5ca60-bc90-487f-b402-81933f8a4890">
+    <name>ДатыГосРегистрацииПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даты гос. регистрации права</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d626bee3-3489-4f14-8e6f-53077a78e900">
+    <name>ВидыОбременений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды обременений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="abf46160-d125-495f-80b1-742941b3045a">
+    <name>ДатыГосРегистрацииОбременений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Даты гос. регистрации обременений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7e2ab30-4283-43bd-a7e3-a5124bfbe697">
+    <name>НомераГосРегистрацииОбременений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номера гос. регистраций обременений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91a8353a-478a-4999-97da-10a2c4134b1b">
+    <name>СрокиОбременений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сроки обременений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c9af892-8454-49c1-a34e-97b699caa34d">
+    <name>ЛицаОбременений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лица обременений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d542a797-429d-47fe-84d8-bbf66748c837">
+    <name>ОснованияРегистрацииОбременений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основания регистрации обременений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94a09b03-7013-4012-a3d2-e601378ea7aa">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7d0a09b0-3650-4837-8e3c-97c732e88a12">
+    <producedTypes>
+      <objectType typeId="33dce173-51b4-4f63-9d68-9fb8ae005d37" valueTypeId="8e6fb28d-7e08-4e44-b825-c7c4a5cbb434"/>
+      <rowType typeId="1dfbea8e-3a5f-4677-b60e-46c3dc239826" valueTypeId="b4427687-6430-464a-aebd-4265e0dd574d"/>
+    </producedTypes>
+    <name>ПраваЗУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Права</value>
+    </synonym>
+    <attributes uuid="759c7d82-a9ba-4e11-bb4f-a39a8e7f2227">
+      <name>Правообладатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правообладатель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d221fdb7-9988-4ab7-95a5-ae58d299bb2b">
+      <name>ВидГосРегистрацииПрава</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид гос. регистрации права</value>
+      </synonym>
+      <type>
+        <types>EnumRef.УБХВидыГосРегистрацииПрава</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b48afbf-f50c-43d4-b102-c2a2b4f7601b">
+      <name>НомерГосРегистрацииПрава</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер гос. регистрации права</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0007188f-012b-46b7-99f1-7aec1bb6926c">
+      <name>ДатаГосРегистрацииПрава</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата гос. регистрации права</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7baed300-4ccb-45d0-9c6f-42368dd97f4a">
+    <producedTypes>
+      <objectType typeId="288fdccb-d2c4-4863-bdff-193fa8c7173c" valueTypeId="76e28d28-5bf0-45b9-8afc-816249450280"/>
+      <rowType typeId="183d66e7-7949-4fe7-a7ff-1aa2d619e343" valueTypeId="0ead0585-7553-4a0e-b997-71a32aec675b"/>
+    </producedTypes>
+    <name>ОбремененияЗУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обременения</value>
+    </synonym>
+    <attributes uuid="429c28ee-1cd5-426b-8756-9f02293f86bf">
+      <name>ВидОбременения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обременение (ЗОУИТ), вид</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УБХВидыОграниченийИОбремененийЗУ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7ecbed53-d213-48d1-90ae-743927e30ced">
+      <name>ДатаГосРегистрацииОбременения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата гос. регистрации обременения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7ac9804f-6cf8-42c4-8efa-6b60b4c48975">
+      <name>НомерГосРегистрацииОбременения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер гос. регистрации обременения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e8a9142-1f95-4973-9287-2dc38955b5a5">
+      <name>СрокОбременения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок обременения</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="494d2fd5-43d3-4d1a-b205-7e8dcd2f7ca7">
+      <name>ЛицоОбременения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лицо, в пользу которого установлено обременения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="426fd4bf-168d-4c58-8cad-fb00392cf174">
+      <name>ОснованиеРегистрацииОбременения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основание регистрации обременения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="36f74a69-b6b1-437d-b7d8-cc7a271e6cc0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39d74478-8314-40fd-b1bd-1408e04f4711">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9fe536b1-2826-4c96-998a-cd516ae42bff">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

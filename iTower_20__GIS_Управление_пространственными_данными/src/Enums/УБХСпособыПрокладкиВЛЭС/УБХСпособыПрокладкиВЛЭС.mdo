@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2d9b9b8-c114-49db-95d5-3ad01304eeb7">
+  <producedTypes>
+    <refType typeId="86744d06-8a48-4d81-88f0-87158354e6d1" valueTypeId="04eeea5c-be03-4609-9bbc-3bb96aaadb29"/>
+    <listType typeId="cccd745f-7be6-47db-a108-f91adb65188b" valueTypeId="17a19cb9-3d5f-43a9-9662-0809534a6d4e"/>
+    <managerType typeId="013c4cb9-7ec9-4706-82a5-b78046d06395" valueTypeId="5a496790-5463-49e4-b1ac-37ae6d5fce8b"/>
+  </producedTypes>
+  <name>УБХСпособыПрокладкиВЛЭС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы прокладки ВЛЭС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.УБХСпособыПрокладкиВЛЭС.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="57d631b8-cb0b-4bd6-9aab-c2479104e1f4">
+    <name>ВЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВЛ</value>
+    </synonym>
+    <comment>Воздушная линия</comment>
+  </enumValues>
+  <enumValues uuid="faedbaf2-636b-45e5-8e80-0d77b5c4100e">
+    <name>Прокол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прокол</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cfd2a63-9ca0-4a9c-97f3-556ebc0f404b">
+    <name>КЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61d456d1-1963-4d91-af2a-96ee792cd0cf">
+    <name>ВЛКЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВЛ + КЛ</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="408102a8-cf34-401c-b0b9-1f7cdf3aff0b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

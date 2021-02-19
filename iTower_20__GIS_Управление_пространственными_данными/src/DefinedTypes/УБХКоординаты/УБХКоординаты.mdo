@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c24fcc4b-5254-4515-ad2d-dc3b846d8a9e">
+  <producedTypes>
+    <containerType typeId="f216af91-8ba6-4ad6-906e-6e433e570d36" valueTypeId="b97f5e61-d981-46d3-af26-5bcb59d2bd5e"/>
+  </producedTypes>
+  <name>УБХКоординаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Координаты</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>21</precision>
+      <scale>17</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -10,7 +10,7 @@
   <name>УБХЗемельныеУчастки</name>
   <synonym>
     <key>ru</key>
-    <value>Земельные участки</value>
+    <value>Земельные участки (УБХ)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.УБХЗемельныеУчастки.StandardAttribute.Description</inputByString>

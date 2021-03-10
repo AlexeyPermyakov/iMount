@@ -42,7 +42,7 @@
       <key>ru</key>
       <value>Стандартная</value>
     </synonym>
-    <comment>Standard</comment>
+    <comment>Standard (Категория 2)</comment>
   </enumValues>
   <enumValues uuid="16eefa48-5a8b-43fc-a192-27c93ee77ea9">
     <name>Стратегическая</name>
@@ -50,7 +50,7 @@
       <key>ru</key>
       <value>Стратегическая</value>
     </synonym>
-    <comment>Strategic</comment>
+    <comment>Strategic (Категория 3)</comment>
   </enumValues>
   <enumValues uuid="d3051d5c-61ad-49a1-980d-9a6d4ff49a5a">
     <name>Золотая</name>
@@ -58,7 +58,7 @@
       <key>ru</key>
       <value>Золотая</value>
     </synonym>
-    <comment>Gold</comment>
+    <comment>Gold (Категория 1)</comment>
   </enumValues>
   <forms uuid="3cd5b73d-b964-4ad4-9221-28865a01dcd7">
     <name>ФормаВыбора</name>

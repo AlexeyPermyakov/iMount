@@ -172,7 +172,7 @@
         </userVisible>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
-            <segments>Объект.Адрес</segments>
+            <segments>Объект.Площадка.Адрес</segments>
           </paths>
         </dataPath>
         <extendedTooltip>
@@ -300,7 +300,7 @@
         </userVisible>
         <dataPath xsi:type="form:MultiLanguageDataPath">
           <paths xsi:type="form:DataPath">
-            <segments>Объект.Регион</segments>
+            <segments>Объект.Площадка.Регион</segments>
           </paths>
         </dataPath>
         <extendedTooltip>
@@ -573,6 +573,44 @@
   <items xsi:type="form:FormGroup">
     <name>СтраницыКарточкиАМС</name>
     <id>34</id>
+    <items xsi:type="form:FormGroup">
+      <name>СтраницаОсновное</name>
+      <id>390</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Основное</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Страница основное</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СтраницаОсновноеРасширеннаяПодсказка</name>
+        <id>391</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
+      </extInfo>
+    </items>
     <items xsi:type="form:FormGroup">
       <name>СтраницаСведения</name>
       <id>36</id>
@@ -3222,18 +3260,19 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>TextDocumentField</type>
+            <type>InputField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:TextDocFieldExtInfo">
+            <extInfo xsi:type="form:InputFieldExtInfo">
               <width>15</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <height>3</height>
+              <height>2</height>
               <autoMaxHeight>true</autoMaxHeight>
-              <horizontalStretch>true</horizontalStretch>
-              <verticalStretch>true</verticalStretch>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -3382,6 +3421,7 @@
         </picture>
         <group>AlwaysHorizontal</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3457,6 +3497,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3502,7 +3543,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </items>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -3533,6 +3573,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3621,6 +3662,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -3697,6 +3739,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -4393,6 +4436,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -5157,6 +5201,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -5233,6 +5278,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -5313,6 +5359,7 @@
         </picture>
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <scrollOnCompress>true</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -5368,6 +5415,7 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
@@ -5497,5 +5545,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

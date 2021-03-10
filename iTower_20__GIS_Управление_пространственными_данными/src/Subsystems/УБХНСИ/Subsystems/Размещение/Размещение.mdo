@@ -12,6 +12,7 @@
   <content>Catalog.УБХКТП</content>
   <content>Catalog.УБХПлощадки</content>
   <content>Enum.УБХВидыВыраженийРасчетов</content>
+  <content>Enum.УБХКатегорииЭлектроснабжения</content>
   <subsystems>АМСиПлощадка</subsystems>
   <parentSubsystem>Subsystem.УБХНСИ</parentSubsystem>
 </mdclass:Subsystem>

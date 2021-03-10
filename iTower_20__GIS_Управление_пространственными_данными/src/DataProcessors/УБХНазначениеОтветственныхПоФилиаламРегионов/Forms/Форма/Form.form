@@ -13,6 +13,10 @@
         <segments>Объект.Регион</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>РегионПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>РегионРасширеннаяПодсказка</name>
       <id>3</id>

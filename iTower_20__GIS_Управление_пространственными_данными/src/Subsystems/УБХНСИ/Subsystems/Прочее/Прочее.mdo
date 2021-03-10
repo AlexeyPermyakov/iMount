@@ -23,5 +23,8 @@
   <content>CommonPicture.УБХКоординатыКарта</content>
   <content>Enum.УБХТипыОС</content>
   <content>CommonPicture.УБХВерсииЗапроса</content>
+  <content>EventSubscription.УБХПриЗаписиПлощадки</content>
+  <content>CommonModule.УБХУправлениеНСИПовтИсп</content>
+  <content>DefinedType.УБХМощность</content>
   <parentSubsystem>Subsystem.УБХНСИ</parentSubsystem>
 </mdclass:Subsystem>

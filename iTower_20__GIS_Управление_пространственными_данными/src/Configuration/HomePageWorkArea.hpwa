@@ -16,6 +16,13 @@
         <common>true</common>
       </visibility>
     </items>
+    <items>
+      <form>DataProcessor.ИнтеграцияС1СДокументооборот.Form.ЗадачиМне</form>
+      <height>10</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
   </columns>
   <columns/>
 </hpwa:HomePageWorkArea>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="950182d6-85a0-4e46-9674-e0afdbd0dd4b">
+  <name>УБХПриЗаписиПлощадки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площадка при записи</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.УБХПлощадки</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УБХОбщегоНазначения.ПриЗаписиПлощадки</handler>
+</mdclass:EventSubscription>

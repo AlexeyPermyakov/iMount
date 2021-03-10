@@ -31,6 +31,20 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
+    <items id="0277c6c3-c2f1-4330-b39e-a8d007fa03e1">
+      <name>Архив</name>
+      <description>Архив</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="fef39a34-04bb-4aae-b1f7-af2d1a1ee34a">
+      <name>Запланировано</name>
+      <description>Запланировано</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
     <items id="ffe971b9-6ce2-4a89-a23a-64ad712cc12e">
       <name>Заявлено</name>
       <description>Заявлено</description>
@@ -38,11 +52,25 @@
         <value>000000002</value>
       </code>
     </items>
+    <items id="0190808a-d9ef-4759-8b65-af0dc607a412">
+      <name>СМР</name>
+      <description>СМР</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
     <items id="2216996b-e449-472b-8225-911c8fc2a6b3">
       <name>Черновик</name>
       <description>Черновик</description>
       <code xsi:type="core:StringValue">
         <value>000000001</value>
+      </code>
+    </items>
+    <items id="fd055b32-a177-4deb-a461-12c4e8d3b069">
+      <name>Эксплуатируется</name>
+      <description>Эксплуатируется</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
       </code>
     </items>
   </predefined>

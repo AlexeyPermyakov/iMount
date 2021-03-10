@@ -94,6 +94,14 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.УБХСтатусы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.УБХНазначениеСтатусов.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>InformationRegister.УБХНазначениеСтатусовОбъектамМетаданных.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>

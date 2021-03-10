@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ef49825-ed71-4c8d-b70d-3843ffda5a06">
+  <producedTypes>
+    <containerType typeId="c060db6e-debc-4014-976c-19afc80acc41" valueTypeId="e6e34a69-faf6-4271-81f5-e5b46ae53cb8"/>
+  </producedTypes>
+  <name>УБХМощность</name>
+  <synonym>
+    <key>ru</key>
+    <value>УБХМощность</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>8</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

@@ -80,4 +80,5 @@
   <content>Catalog.УБХСтатусы</content>
   <content>Catalog.УБХНазначениеСтатусов</content>
   <content>InformationRegister.УБХНазначениеСтатусовОбъектамМетаданных</content>
+  <subsystems>ИнтеграцияСДокументооборотом</subsystems>
 </mdclass:Subsystem>

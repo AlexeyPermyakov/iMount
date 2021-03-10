@@ -11,8 +11,8 @@
   <type>
     <types>Number</types>
     <numberQualifiers>
-      <precision>21</precision>
-      <scale>17</scale>
+      <precision>11</precision>
+      <scale>8</scale>
     </numberQualifiers>
   </type>
 </mdclass:DefinedType>

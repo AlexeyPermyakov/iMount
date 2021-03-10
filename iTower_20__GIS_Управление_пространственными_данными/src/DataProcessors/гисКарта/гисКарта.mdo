@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71b84914-f658-4987-bf35-f32bf06d3a14">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71b84914-f658-4987-bf35-f32bf06d3a14">
   <producedTypes>
     <objectType typeId="e209fa92-551e-4f10-a366-d408154ddad9" valueTypeId="a8665ea1-856d-4c61-a15c-9e442ff38875"/>
     <managerType typeId="0a11927f-95a8-4503-8f8b-d0f7d515cffe" valueTypeId="1d8ace8a-8b36-4ed2-ba9d-244b97a01896"/>
@@ -123,8 +123,14 @@
       <value>Показать на карте</value>
     </synonym>
     <group>FormCommandBarImportant</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
+    <commandParameterType>
+      <types>CatalogRef.УБХАМС</types>
+      <types>CatalogRef.УБХПлощадки</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.УБХКарта</picture>
+    </picture>
     <shortcut></shortcut>
   </commands>
   <commands uuid="a93c511b-094b-4165-b645-6d8661b52f27">

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62c7f60d-8dcc-40bf-b2e2-26ebeb3a2bf7">
+  <producedTypes>
+    <refType typeId="d18b66fc-6572-4504-b1e4-7f3191baa9f1" valueTypeId="fa05f18c-8cd9-4f81-adbb-bdbb02b34e80"/>
+    <listType typeId="f8eeaeea-f99d-41e3-a0ce-b836bc7bac28" valueTypeId="6f9366ac-ce1e-4358-adf5-3580474d5b68"/>
+    <managerType typeId="d5f5576f-bd34-4d2c-b1bf-6ffbe07ef978" valueTypeId="9d807a7d-3a79-4b0d-b07c-0c259921967f"/>
+  </producedTypes>
+  <name>УБХКатегорииЭлектроснабжения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории электроснабжения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="91e54983-2a1b-4170-9843-8190267194e8">
+    <name>ПерваяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>I категория</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71fe7a4d-2cb7-4f4b-8044-d1049c87b97a">
+    <name>ВтораяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>II категория</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f739f1a-7272-4f73-a5ff-b3532611dcd0">
+    <name>ТретьяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>III категория</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

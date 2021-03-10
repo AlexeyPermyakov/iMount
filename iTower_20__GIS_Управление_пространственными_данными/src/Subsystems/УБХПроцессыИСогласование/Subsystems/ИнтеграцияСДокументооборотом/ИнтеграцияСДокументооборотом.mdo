@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="797f6a7d-e09a-4f9c-afa2-5481577e5d07">
+  <name>ИнтеграцияСДокументооборотом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с документооборотом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ИнтеграцияС1СДокументооборот</content>
+  <content>DataProcessor.ПанельАдминистрированияБИД</content>
+  <parentSubsystem>Subsystem.УБХПроцессыИСогласование</parentSubsystem>
+</mdclass:Subsystem>
